@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../hoolaparent/hoola-client/hoola-client.iml" filepath="$PROJECT_DIR$/../hoolaparent/hoola-client/hoola-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hoolaparent/hoola-common/hoola-common.iml" filepath="$PROJECT_DIR$/../hoolaparent/hoola-common/hoola-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hoolaparent/hoola-datacenter/hoola-datacenter.iml" filepath="$PROJECT_DIR$/../hoolaparent/hoola-datacenter/hoola-datacenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/hoola-redis.iml" filepath="$PROJECT_DIR$/../hoolaparent/hoola-redis/hoola-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hoolaparent/hoolaparent.iml" filepath="$PROJECT_DIR$/../hoolaparent/hoolaparent.iml" />
+    </modules>
+  </component>
+</project>
