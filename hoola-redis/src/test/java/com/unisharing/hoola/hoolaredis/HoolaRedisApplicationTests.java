@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = com.unisharing.hoola.hoolaredis.configuration.RedisConfig.class)
 public class HoolaRedisApplicationTests {
 	@Autowired
-    @Qualifier("userRedisTemplate")
+    @Qualifier("userTemplate")
     private RedisTemplate userRedisTemplate;
 	@Test
 	public void contextLoads() {

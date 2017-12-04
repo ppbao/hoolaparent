@@ -2,158 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27827b8f-6383-442c-8705-c174e247b388" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__com_aliyun_openservices_aliyun_openservices_1_0_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__com_google_code_gson_gson_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__com_google_guava_guava_13_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__io_searchbox_jest_0_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__io_searchbox_jest_2_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__io_searchbox_jest_common_2_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_0_beta3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_springframework_spring_aop_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_springframework_spring_beans_5_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_springframework_spring_core_5_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_springframework_spring_expression_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_springframework_spring_web_4_3_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/HoolaErrorCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/JumpUrl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/NoticeMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/AtMessageBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/ContentBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/DialogBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/FollowBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/GroupBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/InviteBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/MobileMessageBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/ShareBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/UserBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ActionModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ActiveContentModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ActiveInfoModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/AtMessageModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/BannerInfoModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/BaseModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/BindModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/CommentModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ContactsModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ContentModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ContentTagModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/EditorTagModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/EditorTalentInfoModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/EditorTalentModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/FeedBackModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/FilterWordModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ForwardContentModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/FriendModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/GroupModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/GroupRelationModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/IndexContentModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/IndexOpenUserModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/IndexUserModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/InviteModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/LikeContentModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/LogShareModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/LogShowModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/MatchedUserModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/MessageModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/MessagePushModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/OpenFriend.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/OtherTagModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/RecommendModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/RedisMessageModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ReportModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ResultHot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/SetContentModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/SetUserModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/SettingModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/SubjectContentModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/SubjectModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/SysResourceModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/TagHotModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/TagModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserAdminModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserMobileModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserRecommendModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserTokenModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/consumer/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/AtMessageSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/BindSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/CommentSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/ContentSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/FeedBackSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MContentSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MFeedBackSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MFilterWordSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MMessageSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MPushHistorySubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MTagSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MUserSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MessageSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/Pager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/SettingSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/TalentSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/UserSubmit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/AliyunUploadUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/DateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/EmojiConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/EmojiUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaBeanUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaSecurity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaSendSmsUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaStringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/UpYun.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/UploadUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/VideoTools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/constant/C.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/ActionForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/AtMessageForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/BannerForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/BindForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/CommentForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/CommentMessageForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/ContentForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/DialogForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/EditorTagForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/FriendForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/GroupForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/HotIndexForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/LoginForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/MessageForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/NotificationForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/SimpleContentForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/SimpleUserForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/SubjectForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/SysResourceForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/SystemRmdUserForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/TalentForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/TalentListForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/TipsShowUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/UserDetailForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/UserForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/unit/Content.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/unit/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/ESIndexBuilderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/IESIndexBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/IIndexBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/IndexBuilderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/service/IShareService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/CommentKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/ContentKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/FriendShipKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/GroupKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/HotContentKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/JMSKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/MessageKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/ReportKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/SearchKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/SystemKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/TimelineKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/UserKeyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/pubsub/HoolaRedisPublisherImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/pubsub/IRedisPublisher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/BaseRedisService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/IRedisTestService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/RedisTestServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/badword/BadwordServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/badword/IBadwordService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/comment/IRedisCommentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/comment/RedisCommentServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/content/IRedisContentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/content/RedisContentServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/group/IRedisGroupService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/group/RedisGroupServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/hot/IRedisHotService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/hot/RedisHotServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/jms/IRedisJMSMessageService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/jms/RedisJMSMessageServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/message/IRedisMessageService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/message/RedisMessageServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/report/IRedisReportService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/report/RedisReportServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/resource/IRedisResourceService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/resource/RedisResourceServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/search/ISearcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/search/SearcherImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/content/ContentSynServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/content/IContentSynService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/system/ISystemSynService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/system/SystemSynServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/user/IUserSynService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/user/UserSynServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/timeline/IRedisTimelineService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/timeline/RedisTimelineServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/IRedisRelationshipService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/IRedisUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/RedisRelationshipServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/RedisUserServiceImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/UserRedisService.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hoolaparent/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hoolaparent/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/UserController.java" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hoolaparent/hoola-common/pom.xml" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserModel.java" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hoolaparent/pom.xml" afterPath="$PROJECT_DIR$/../hoolaparent/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hoolaparent/hoola-redis/pom.xml" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/configuration/RedisConfig.java" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/configuration/RedisConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/test/java/com/unisharing/hoola/hoolaredis/HoolaRedisApplicationTests.java" afterPath="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/test/java/com/unisharing/hoola/hoolaredis/HoolaRedisApplicationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../hoolaparent/out/" />
     <ignored path="$PROJECT_DIR$/../hoolaparent/target/" />
@@ -170,119 +80,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/pom.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="58" column="55" lean-forward="false" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+            <state relative-caret-position="484">
+              <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BindSubmit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/BindSubmit.java">
+      <file leaf-file-name="IRedisTestService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/IRedisTestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/ContentForm.java">
+      <file leaf-file-name="HoolaClientApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/HoolaClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4685#4686#0" expanded="true" />
-                <element signature="e#4734#4735#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentSubmit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/ContentSubmit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
-              <caret line="278" column="12" lean-forward="false" selection-start-line="278" selection-start-column="12" selection-end-line="278" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeedBackSubmit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/FeedBackSubmit.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MMessageSubmit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MMessageSubmit.java">
+      <file leaf-file-name="UserKeyManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/UserKeyManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MContentSubmit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MContentSubmit.java">
+      <file leaf-file-name="RedisTestServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/RedisTestServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="85" column="28" lean-forward="false" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/UserForm.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentSubmit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/CommentSubmit.java">
+      <file leaf-file-name="HoolaClientApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-client/src/test/java/com/unisharing/hoola/hoolaclient/HoolaClientApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisRelationshipServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/RedisRelationshipServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="346" column="24" lean-forward="false" selection-start-line="346" selection-start-column="24" selection-end-line="346" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5499#5515#0" expanded="true" />
+                <element signature="e#7042#7058#0" expanded="true" />
+                <element signature="e#9520#9536#0" expanded="true" />
+                <element signature="e#10643#10662#0" expanded="true" />
+                <element signature="e#25747#25759#0" expanded="true" />
+                <element signature="e#29499#29511#0" expanded="true" />
+                <element signature="e#34230#34246#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BindModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/BindModel.java">
+      <file leaf-file-name="RedisUserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/RedisUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1076">
-              <caret line="93" column="41" lean-forward="false" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+            <state relative-caret-position="282">
+              <caret line="108" column="8" lean-forward="true" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#7068#7079#0" expanded="true" />
+                <element signature="e#13232#13246#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -302,8 +207,10 @@
       <find>DuanquConfig</find>
       <find>com.duanqu.</find>
       <find>BindModel</find>
-      <find>duanqu</find>
       <find>com.duanqu</find>
+      <find>duanqu</find>
+      <find>com.duanqu.common</find>
+      <find>StringUtil</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Tests\hoolaparent\hoola-common</dir>
@@ -320,50 +227,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/configuration/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/test/java/com/unisharing/hoola/hoolaredis/HoolaRedisApplicationTests.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/UserRedisService.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/UserController.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/HoolaRedisApplication.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-client/pom.xml" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-datacenter/pom.xml" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/HoolaClientApplication.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/../hoolaparent/notes" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/MobileMessageBean.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/BaseModel.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/TalentSubmit.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/unit/User.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/HoolaErrorCode.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/NoticeMessage.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/ContentBean.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/UserBean.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/PushSender.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/EmojiUtils.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaConfig.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaSecurity.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaStringUtils.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/BannerInfoModel.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/SysResourceModel.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ContentModel.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/EditorTagModel.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/CommentModel.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserModel.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/pom.xml" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/MessageModel.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/SubjectModel.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/UserSubmit.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/VideoTools.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/BindSubmit.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/ContentForm.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/ContentSubmit.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MMessageSubmit.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MContentSubmit.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/UserForm.java" />
-        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/CommentSubmit.java" />
         <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/BindModel.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/IRedisTestService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/GroupKeyManager.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/group/IRedisGroupService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/hot/IRedisHotService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/user/IUserSynService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/comment/IRedisCommentService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/content/IRedisContentService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/IRedisUserService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/system/SystemSynServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/jms/IRedisJMSMessageService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/timeline/IRedisTimelineService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/hot/RedisHotServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/jms/RedisJMSMessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/message/IRedisMessageService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/resource/RedisResourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/search/ISearcher.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/comment/ICommentSynService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/comment/CommentSynServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/IRedisRelationshipService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/badword/BadwordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/report/RedisReportServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/resource/IRedisResourceService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/content/IContentSynService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/message/IMessageSynService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/service/IShareService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/IIndexBuilder.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/ESIndexBuilderImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/RedisRelationshipServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/user/UserSynServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/message/MessageSynServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/pubsub/DuanquRedisPublisherImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/pubsub/IRedisPublisher.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/pubsub/HoolaRedisPublisherImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/IESIndexBuilder.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/IndexBuilderImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/service/ShareServiceImpl.java" />
         <option value="$PROJECT_DIR$/../hoolaparent/hoola-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/content/ContentSynServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/configuration/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/BaseRedisService.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/test/java/com/unisharing/hoola/hoolaredis/HoolaRedisApplicationTests.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/content/RedisContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/comment/RedisCommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/group/RedisGroupServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/message/RedisMessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/timeline/RedisTimelineServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/search/SearcherImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/RedisUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/UserController.java" />
       </list>
     </option>
   </component>
@@ -390,7 +304,7 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="hoola-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -434,25 +348,20 @@
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-common" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-common" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-common" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -460,36 +369,223 @@
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-common" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hoolacommon" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaclient" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
               <item name="hoola-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hoolacommon" type="462c0819:PsiDirectoryNode" />
-              <item name="submit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hoolacommon" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="key" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="comment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="hot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="timeline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -513,15 +609,19 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="SearchEverywhereHistoryKey" value="RedisContentServiceImpl.&#9;FILE&#9;file://C:/Tests/hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/content/RedisContentServiceImpl.java&#10;IMessageSynService.&#9;FILE&#9;file://C:/Tests/hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/message/IMessageSynService.java&#10;contentSyn&#9;FILE&#9;file://C:/Tests/hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/content/ContentSynServiceImpl.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.unisharing.hoola.hoolacommon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Tests\hoolaparent\hoola-common\src\main\java\com\unisharing\hoola\hoolacommon\utils" />
+      <recent name="C:\Tests\hoolaparent\hoola-redis\src\main\java\com\unisharing\hoola\hoolaredis" />
+      <recent name="C:\Tests\hoolaparent\hoola-common\src\main\java\com\unisharing\hoola\hoolacommon\service" />
       <recent name="C:\Tests\hoolaparent\hoola-common\src\main\java\com\unisharing\hoola\hoolacommon" />
-      <recent name="C:\Tests\hoolaparent\hoola-redis\src\main\resources\redis" />
+      <recent name="C:\Tests\hoolaparent\hoola-redis\src\main\java\com\unisharing\hoola\hoolaredis\service" />
+      <recent name="C:\Tests\hoolaparent\hoola-common\src\main\java\com\unisharing\hoola\hoolacommon\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -682,6 +782,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="27827b8f-6383-442c-8705-c174e247b388" name="Default" comment="" />
@@ -694,7 +797,7 @@
       <workItem from="1512181940655" duration="7679000" />
       <workItem from="1512218607087" duration="696000" />
       <workItem from="1512283481586" duration="5792000" />
-      <workItem from="1512348165857" duration="6093000" />
+      <workItem from="1512348165857" duration="26786000" />
     </task>
     <servers />
   </component>
@@ -728,41 +831,49 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22394000" />
+    <option name="totallyTimeSpent" value="43087000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1672" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11632871" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5555556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18599562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13020277" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18409818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57986873" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5645514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49562362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5229759" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.85667396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.178762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5514223" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4956427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -774,7 +885,29 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/RedisUserServiceImpl.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/UserController.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/UserController.java</url>
+          <line>13</line>
+          <properties class="com.unisharing.hoola.hoolaclient.web.UserController" method="login">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -783,470 +916,362 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/PushSender.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/CommentKeyManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6216">
-          <caret line="308" column="16" lean-forward="true" selection-start-line="308" selection-start-column="16" selection-end-line="308" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="266">
+          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding>
+            <element signature="e#1261#1262#0" expanded="false" />
+            <element signature="e#1332#1333#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/DuanquSendMailUtil.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/IESIndexBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/UploadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/EmojiUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2825">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/UpYun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="324" column="35" lean-forward="false" selection-start-line="324" selection-start-column="35" selection-end-line="324" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1593">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaBeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaStringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/UserBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/SysResourceModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserRecommendModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserTokenModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/BannerInfoModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="99" column="29" lean-forward="true" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/CommentModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ContactsModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ContentModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ContentTagModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/EditorTagModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="97" column="18" lean-forward="false" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/EditorTalentModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/FilterWordModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ForwardContentModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/GroupModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/GroupRelationModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/IndexOpenUserModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/IndexContentModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/AliyunUploadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserModel.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/IndexBuilderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/ESIndexBuilderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1512365056440" expanded="false" signature="6560:6565" ph=" { " />
-            <marker date="1512365056440" expanded="false" signature="6581:6584" ph=" }" />
-            <marker date="1512365056440" expanded="false" signature="6623:6628" ph=" { " />
-            <marker date="1512365056440" expanded="false" signature="6653:6656" ph=" }" />
-            <marker date="1512365056440" expanded="false" signature="6687:6692" ph=" { " />
-            <marker date="1512365056440" expanded="false" signature="6710:6713" ph=" }" />
-            <marker date="1512365056440" expanded="false" signature="6759:6764" ph=" { " />
-            <marker date="1512365056440" expanded="false" signature="6793:6796" ph=" }" />
-            <marker date="1512365056440" expanded="false" signature="6825:6830" ph=" { " />
-            <marker date="1512365056440" expanded="false" signature="6846:6849" ph=" }" />
-            <marker date="1512365056440" expanded="false" signature="6891:6896" ph=" { " />
-            <marker date="1512365056440" expanded="false" signature="6921:6924" ph=" }" />
-            <marker date="1512365056440" expanded="false" signature="6957:6962" ph=" { " />
-            <marker date="1512365056440" expanded="false" signature="6982:6985" ph=" }" />
-            <marker date="1512365056440" expanded="false" signature="7035:7040" ph=" { " />
-            <marker date="1512365056440" expanded="false" signature="7073:7076" ph=" }" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/FriendModel.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/index/IIndexBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="66">
+          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/FeedBackModel.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/service/IShareService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="361">
+          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/service/ShareServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/EditorTalentInfoModel.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/pubsub/HoolaRedisPublisherImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/pubsub/IRedisPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/LikeContentModel.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/content/ContentSynServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/message/IRedisMessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/IRedisRelationshipService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="232" column="7" lean-forward="true" selection-start-line="232" selection-start-column="7" selection-end-line="232" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/content/IRedisContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/IRedisUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/configuration/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/group/IRedisGroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/report/IRedisReportService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="25" selection-end-column="0" />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-datacenter/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/report/RedisReportServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/resource/IRedisResourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/resource/RedisResourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/BaseRedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="88" column="30" lean-forward="false" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/comment/CommentSynServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/message/IMessageSynService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/message/MessageSynServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="205" column="9" lean-forward="true" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/UserRedisService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/test/java/com/unisharing/hoola/hoolaredis/HoolaRedisApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/core/BoundZSetOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../hoolaparent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="440">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/MessageModel.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/content/RedisContentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="403">
+          <caret line="941" column="143" lean-forward="false" selection-start-line="941" selection-start-column="143" selection-end-line="941" selection-end-column="143" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5551#5563#0" expanded="false" />
+            <element signature="e#6702#6714#0" expanded="false" />
+            <element signature="e#7869#7881#0" expanded="false" />
+            <element signature="e#11841#11853#0" expanded="false" />
+            <element signature="e#12963#12975#0" expanded="false" />
+            <element signature="e#18417#18429#0" expanded="false" />
+            <element signature="e#20519#20531#0" expanded="false" />
+            <element signature="e#24717#24729#0" expanded="false" />
+            <element signature="e#34667#34683#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/SubjectModel.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/ContentModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/UserSubmit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1659">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/VideoTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="85" column="12" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/BindSubmit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/ContentForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4685#4686#0" expanded="true" />
-            <element signature="e#4734#4735#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/ContentSubmit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="278" column="12" lean-forward="false" selection-start-line="278" selection-start-column="12" selection-end-line="278" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/FeedBackSubmit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="176">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MMessageSubmit.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/comment/RedisCommentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="439">
+          <caret line="230" column="32" lean-forward="false" selection-start-line="230" selection-start-column="32" selection-end-line="230" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3490#3503#0" expanded="false" />
+            <element signature="e#4568#4581#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/MContentSubmit.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/group/RedisGroupServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="85" column="28" lean-forward="false" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+        <state relative-caret-position="505">
+          <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#867#878#0" expanded="true" />
+            <element signature="e#1966#1982#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/vo/UserForm.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/hot/IRedisHotService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="708">
+          <caret line="223" column="17" lean-forward="false" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/hot/RedisHotServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="598" column="60" lean-forward="false" selection-start-line="598" selection-start-column="60" selection-end-line="598" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/message/RedisMessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="437" column="9" lean-forward="false" selection-start-line="437" selection-start-column="9" selection-end-line="437" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2657#2672#0" expanded="true" />
+            <element signature="e#8644#8656#0" expanded="true" />
+            <element signature="e#9818#9831#0" expanded="true" />
+            <element signature="e#13055#13075#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/CommentSubmit.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/timeline/RedisTimelineServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        <state relative-caret-position="395">
+          <caret line="92" column="26" lean-forward="false" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5074#5086#0" expanded="true" />
+            <element signature="e#7421#7433#0" expanded="true" />
+            <element signature="e#21448#21464#0" expanded="true" />
+            <element signature="e#22171#22187#0" expanded="true" />
+            <element signature="e#23951#23967#0" expanded="true" />
+            <element signature="e#29738#29754#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/BindModel.java">
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/HoolaStringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1076">
-          <caret line="93" column="41" lean-forward="false" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1255,8 +1280,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="58" column="55" lean-forward="false" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
+        <state relative-caret-position="219">
+          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="55" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/search/SearcherImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="176" column="5" lean-forward="false" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2583#2595#0" expanded="true" />
+            <element signature="e#4750#4766#0" expanded="true" />
+            <element signature="e#6226#6238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/RedisRelationshipServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="346" column="24" lean-forward="false" selection-start-line="346" selection-start-column="24" selection-end-line="346" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5499#5515#0" expanded="true" />
+            <element signature="e#7042#7058#0" expanded="true" />
+            <element signature="e#9520#9536#0" expanded="true" />
+            <element signature="e#10643#10662#0" expanded="true" />
+            <element signature="e#25747#25759#0" expanded="true" />
+            <element signature="e#29499#29511#0" expanded="true" />
+            <element signature="e#34230#34246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-client/src/test/java/com/unisharing/hoola/hoolaclient/HoolaClientApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/IRedisTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="434" column="21" lean-forward="true" selection-start-line="434" selection-start-column="21" selection-end-line="434" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/key/UserKeyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/RedisTestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/user/RedisUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="108" column="8" lean-forward="true" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7068#7079#0" expanded="true" />
+            <element signature="e#13232#13246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/HoolaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hoolaparent/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1313,11 +1452,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|hoola-client</last-edited>
+          <last-edited>hoola-client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

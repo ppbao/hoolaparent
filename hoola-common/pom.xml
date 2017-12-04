@@ -70,6 +70,12 @@
             <artifactId>httpmime</artifactId>
             <version>4.1.2</version>
         </dependency>
+        <!-- elasticsearch -->
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>0.90.1</version>
+        </dependency>
 
 
     </dependencies>
