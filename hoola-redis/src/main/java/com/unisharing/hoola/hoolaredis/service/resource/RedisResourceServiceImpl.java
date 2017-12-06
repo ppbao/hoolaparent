@@ -10,12 +10,13 @@ import org.springframework.data.redis.hash.HashMapper;
 import org.springframework.data.redis.hash.JacksonHashMapper;
 import org.springframework.data.redis.support.collections.DefaultRedisMap;
 import org.springframework.data.redis.support.collections.RedisMap;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
-
+@Service("redisResourceService")
 public class RedisResourceServiceImpl extends BaseRedisService implements IRedisResourceService {
 	
 	private final HashMapper<SysResourceModel, String, String> resourceMapper = new DecoratingStringHashMapper<SysResourceModel>(

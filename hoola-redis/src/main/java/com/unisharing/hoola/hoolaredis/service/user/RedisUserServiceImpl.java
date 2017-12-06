@@ -20,10 +20,10 @@ import org.springframework.data.redis.support.collections.DefaultRedisMap;
 import org.springframework.data.redis.support.collections.RedisMap;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
-
 import java.util.*;
-	 @Service("userRedisService")
-	 public class RedisUserServiceImpl extends BaseRedisService implements IRedisUserService  {
+
+@Service("userRedisService")
+public class RedisUserServiceImpl extends BaseRedisService implements IRedisUserService  {
 
 	 Log logger = LogFactory.getLog(RedisUserServiceImpl.class);
 

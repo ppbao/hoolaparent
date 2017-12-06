@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.unisharing.hoola.hoolaclient.dao.ClientMessageMapper">
+	
+
+
+<insert id="insertUserMessage" parameterType="MessageModel">
+insert into tab_user_message
+(uid,
+ rec_uid,
+ message_text,
+ create_time,
+ is_delete,
+ is_new,
+ type
+)
+values
+(#{uid},
+ #{recUid},
+ #{messageText},
+ #{createTime},
+ #{isDelete},
+ #{isNew},
+ #{type}
+)
+</insert>
+
+<update id="deleteSendUserMessage" parameterType="Long">
+ update tab_user_message set is_delete=1 where uid=#{uid}
+</update>
+
+
+<update id="deleteReceiveUserMessage" parameterType="Long">
+update tab_user_message set is_delete_rec=1 where rec_uid=#{recUid}
+</update>
+</mapper>
+
+

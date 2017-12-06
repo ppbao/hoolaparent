@@ -21,6 +21,7 @@ import com.unisharing.hoola.hoolaredis.service.user.IRedisRelationshipService;
 import com.unisharing.hoola.hoolaredis.service.user.IRedisUserService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.DefaultStringRedisConnection;
 import org.springframework.data.redis.connection.RedisZSetCommands.Aggregate;
 import org.springframework.data.redis.core.ZSetOperations.TypedTuple;
@@ -30,23 +31,24 @@ import org.springframework.data.redis.hash.JacksonHashMapper;
 import org.springframework.data.redis.support.atomic.RedisAtomicLong;
 import org.springframework.data.redis.support.collections.DefaultRedisMap;
 import org.springframework.data.redis.support.collections.RedisMap;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
+@Service("redisContentService")
 public class RedisContentServiceImpl extends BaseRedisService implements IRedisContentService{
 	
 	Log logger = LogFactory.getLog(RedisContentServiceImpl.class);
-	
+	@Autowired
 	IRedisUserService redisUserService;
-	
+	@Autowired
 	IRedisRelationshipService redisRelationshipService;
-	
+	@Autowired
 	IRedisContentService redisContentService;
-	
+	@Autowired
 	IRedisTimelineService redisTimelineService;
 	
 	private final HashMapper<ContentModel, String, String> contentMapper = new DecoratingStringHashMapper<ContentModel>(

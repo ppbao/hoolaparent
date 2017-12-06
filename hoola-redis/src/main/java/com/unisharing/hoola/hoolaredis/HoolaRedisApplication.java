@@ -10,15 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.xml.ws.RequestWrapper;
 
 @SpringBootApplication
-@Controller
+
 public class HoolaRedisApplication {
-	@Autowired
-    private RedisTemplate redisTemplate;
+
 	public static void main(String[] args) {
 		SpringApplication.run(HoolaRedisApplication.class, args);
 	}
-	@RequestMapping("/set")
-	public void setValue(String name){
-	    redisTemplate.boundValueOps("test").set("verygood");
-    }
-}
+ }

@@ -9,16 +9,18 @@ import com.unisharing.hoola.hoolacommon.vo.SimpleUserForm;
 import com.unisharing.hoola.hoolaredis.key.GroupKeyManager;
 import com.unisharing.hoola.hoolaredis.service.BaseRedisService;
 import com.unisharing.hoola.hoolaredis.service.user.IRedisUserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
-
+@Service("redisGroupService")
 public class RedisGroupServiceImpl  extends BaseRedisService implements IRedisGroupService {
 	
 	
-	
+	@Autowired
 	IRedisUserService redisUserService;
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override

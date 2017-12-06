@@ -18,17 +18,22 @@ import com.unisharing.hoola.hoolaredis.service.user.IRedisRelationshipService;
 import com.unisharing.hoola.hoolaredis.service.user.IRedisUserService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.DefaultStringRedisConnection;
 import org.springframework.data.redis.connection.DefaultStringTuple;
 import org.springframework.data.redis.connection.RedisZSetCommands.Aggregate;
 import org.springframework.data.redis.core.ZSetOperations.TypedTuple;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
-
+@Service("redisTimelineService")
 public class RedisTimelineServiceImpl extends BaseRedisService implements IRedisTimelineService{
 	Log logger = LogFactory.getLog(RedisContentServiceImpl.class);
+	@Autowired
 	IRedisUserService redisUserService;
+	@Autowired
 	IRedisContentService redisContentService;
+	@Autowired
 	IRedisRelationshipService redisRelationshipService;
 	
 	

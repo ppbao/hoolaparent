@@ -7,9 +7,10 @@ import com.unisharing.hoola.hoolacommon.model.*;
 import com.unisharing.hoola.hoolaredis.key.JMSKeyManager;
 import com.unisharing.hoola.hoolaredis.key.SystemKeyManager;
 import com.unisharing.hoola.hoolaredis.service.BaseRedisService;
+import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
-
+@Service("redisJmsMessageService")
 public class RedisJMSMessageServiceImpl extends BaseRedisService implements
 		IRedisJMSMessageService {
 

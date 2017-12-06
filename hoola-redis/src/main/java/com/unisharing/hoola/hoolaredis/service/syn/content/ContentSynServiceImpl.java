@@ -1,7 +1,7 @@
 package com.unisharing.hoola.hoolaredis.service.syn.content;
 
 import com.unisharing.hoola.hoolacommon.NoticeMessage;
-import com.unisharing.hoola.hoolacommon.index.IIndexBuilder;
+import com.unisharing.hoola.hoolacommon.indexService.IIndexBuilder;
 import com.unisharing.hoola.hoolacommon.model.ActionModel;
 import com.unisharing.hoola.hoolacommon.model.ContentModel;
 import com.unisharing.hoola.hoolacommon.model.IndexContentModel;
@@ -19,19 +19,29 @@ import com.unisharing.hoola.hoolaredis.service.user.IRedisUserService;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service("contentSynService")
 public class ContentSynServiceImpl extends BaseRedisService implements IContentSynService {
 
 	Log logger = LogFactory.getLog(ContentSynServiceImpl.class);
+	@Autowired
 	IRedisContentService redisContentService;
+	@Autowired
 	IRedisTimelineService redisTimelineService;
+	@Autowired
 	IRedisRelationshipService redisRelationshipService;
-	IIndexBuilder indexBuilder;
+//todo	@Autowired
+//	IIndexBuilder indexBuilderService;
+	@Autowired
 	IRedisUserService redisUserService;
+	@Autowired
 	IRedisMessageService redisMessageService;
-	IRedisPublisher duanquPublisher;
+	@Autowired
+	IRedisPublisher hoolaPublisher;
+	@Autowired
 	IRedisJMSMessageService redisJMSMessageService;
 	
 	@SuppressWarnings("rawtypes")
@@ -83,7 +93,7 @@ public class ContentSynServiceImpl extends BaseRedisService implements IContentS
 						indexModel.setDescription(model.getDescription());
 						indexModel.setTags(tags.toString());
 						indexModel.setTime(model.getUploadTime());
-						indexBuilder.buildConentIndex(indexModel);
+                   //todo     indexBuilderService.buildConentIndex(indexModel);
 					}catch (Exception e) {
 						logger.error("创建内容索引失败："+e.getMessage());
 					}
@@ -132,7 +142,7 @@ public class ContentSynServiceImpl extends BaseRedisService implements IContentS
 					}
 				}
 				//删除索引
-				indexBuilder.deleteContentIndex(cid);
+           //todo     indexBuilderService.deleteContentIndex(cid);
 			}
 		}
 		return true;
@@ -187,7 +197,7 @@ public class ContentSynServiceImpl extends BaseRedisService implements IContentS
 							//尝试删除本地消息队列的数据防止重复操作
 							redisJMSMessageService.deleteCancelForwardMessageQueue(action);
 							redisJMSMessageService.insertForwardMessageQueue(action);
-							duanquPublisher.publish(new NoticeMessage(HoolaUtils.getIp(),HoolaUtils.getIp(),NoticeMessage.MessageType.FORWARD));
+							hoolaPublisher.publish(new NoticeMessage(HoolaUtils.getIp(),HoolaUtils.getIp(),NoticeMessage.MessageType.FORWARD));
 							message="转发成功";
 						}catch(Exception e){
 							e.printStackTrace();
@@ -223,14 +233,14 @@ public class ContentSynServiceImpl extends BaseRedisService implements IContentS
 			//3、修改内容
 			redisContentService.updateDescription(cid, description);
 			//4、修改索引
-			indexBuilder.deleteContentIndex(cid);
+       //todo     indexBuilderService.deleteContentIndex(cid);
 			//5、重新创建索引
 			IndexContentModel index = new IndexContentModel();
 			index.setCid(cid);
 			index.setDescription(description);
 			index.setTags(HoolaStringUtils.getTagString(description));
 			index.setTime(oldContent.getUploadTime());
-			indexBuilder.buildConentIndex(index);
+      //todo      indexBuilderService.buildConentIndex(index);
 			return true;
 		}
 		
@@ -263,10 +273,10 @@ public class ContentSynServiceImpl extends BaseRedisService implements IContentS
 			IRedisRelationshipService redisRelationshipService) {
 		this.redisRelationshipService = redisRelationshipService;
 	}
-
-	public void setIndexBuilder(IIndexBuilder indexBuilder) {
-		this.indexBuilder = indexBuilder;
-	}
+//
+//	 public void setindexBuilder(IIndexBuilder indexBuilderService) {
+//		this.indexBuilderService = indexBuilderService;
+//	}
 
 	public void setRedisUserService(IRedisUserService redisUserService) {
 		this.redisUserService = redisUserService;
@@ -276,8 +286,8 @@ public class ContentSynServiceImpl extends BaseRedisService implements IContentS
 		this.redisMessageService = redisMessageService;
 	}
 
-	public void setDuanquPublisher(IRedisPublisher duanquPublisher) {
-		this.duanquPublisher = duanquPublisher;
+	public void setHoolaPublisher(IRedisPublisher hoolaPublisher) {
+		this.hoolaPublisher = hoolaPublisher;
 	}
 
 

@@ -3,8 +3,9 @@ package com.unisharing.hoola.hoolaredis.service.report;
 
 import com.unisharing.hoola.hoolaredis.key.ReportKeyManager;
 import com.unisharing.hoola.hoolaredis.service.BaseRedisService;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
-
+@Service("redisReportService")
 public class RedisReportServiceImpl extends BaseRedisService implements
 		IRedisReportService {
 

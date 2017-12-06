@@ -1,4 +1,4 @@
-package com.unisharing.hoola.hoolacommon.index;
+package com.unisharing.hoola.hoolacommon.indexService;
 
 
 import com.unisharing.hoola.hoolacommon.model.IndexContentModel;
@@ -7,7 +7,7 @@ import com.unisharing.hoola.hoolacommon.model.IndexUserModel;
 
 public interface IIndexBuilder {
 	
-void buildUserIndex(IndexUserModel user);
+    void buildUserIndex(IndexUserModel user);
 	
 	void buildConentIndex(IndexContentModel content);
 	

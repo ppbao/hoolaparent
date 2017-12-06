@@ -1,7 +1,7 @@
 package com.unisharing.hoola.hoolaredis.service.user;
 
 
-import com.unisharing.hoola.hoolacommon.index.IIndexBuilder;
+import com.unisharing.hoola.hoolacommon.indexService.IIndexBuilder;
 import com.unisharing.hoola.hoolacommon.model.*;
 import com.unisharing.hoola.hoolacommon.utils.HoolaConfig;
 import com.unisharing.hoola.hoolacommon.vo.SimpleUserForm;
@@ -22,10 +22,11 @@ import org.springframework.data.redis.hash.HashMapper;
 import org.springframework.data.redis.hash.JacksonHashMapper;
 import org.springframework.data.redis.support.collections.DefaultRedisMap;
 import org.springframework.data.redis.support.collections.RedisMap;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import java.util.*;
-
+@Service("redisRelationshipService")
 public class RedisRelationshipServiceImpl extends BaseRedisService implements
 		IRedisRelationshipService{
 
@@ -951,7 +952,7 @@ public class RedisRelationshipServiceImpl extends BaseRedisService implements
 					UserModel user = redisUserService.getUser(resultUid);
 					if (user != null && user.getUid()>0){
 						tipsUser = new TipsShowUser();
-						tipsUser.setAvatar(DuanquConfig.getAliyunAvatarDomain()+user.getAvatarUrl());
+						tipsUser.setAvatar(HoolaConfig.getAliyunAvatarDomain()+user.getAvatarUrl());
 						tipsUser.setMemo("趣拍推荐了TA");
 						tipsUser.setNickName(user.getNickName());
 						tipsUser.setUid(user.getUid());
@@ -1037,7 +1038,7 @@ public class RedisRelationshipServiceImpl extends BaseRedisService implements
 					simpleUserFormEditor.setNickName(user.getNickName());
 					simpleUserFormEditor.setUid(user.getUid());
 					/*tipsUser = new TipsShowUser();
-					tipsUser.setAvatar(DuanquConfig.getAliyunAvatarDomain()+user.getAvatarUrl());
+					tipsUser.setAvatar(HoolaConfig.getAliyunAvatarDomain()+user.getAvatarUrl());
 					tipsUser.setMemo("趣拍推荐了TA");
 					tipsUser.setNickName(user.getNickName());
 					tipsUser.setUid(user.getUid());

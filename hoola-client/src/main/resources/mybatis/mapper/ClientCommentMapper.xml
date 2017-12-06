@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.unisharing.hoola.hoolaclient.dao.ClientCommentMapper">
+
+	<insert id="insertContentComment" parameterType="CommentModel">
+		insert into tab_content_comment
+		(id,
+		 uid,
+		 cid,
+		 comment_text,
+		 reply_uid,
+		 create_time,
+		 comment_url,
+		 prient_id,
+		 root_id
+		 )
+		values
+		(#{id},
+		 #{uid},
+		 #{cid},
+		 #{commentText},
+		 #{replyUid},
+		 #{createTime},
+		 #{commentUrl},
+		 #{parentId},
+		 #{rootId}
+		)
+	</insert>
+	<delete id="deleteContentComment" parameterType="CommentModel">
+	delete from tab_content_comment where id=#{id}
+	</delete>
+	<delete id="deleteAllContentComment" parameterType="CommentModel">
+	delete from tab_content_comment where id=#{id} or root_id=#{id}
+	</delete>
+	
+	<update id="updateContentInfo" parameterType="Map">
+	update tab_content_info set comment_num=comment_num-#{num} where cid=#{cid}
+	</update>
+	
+	<select id="getCommentModel" resultType="CommentModel" parameterType="CommentModel">
+	select id,uid,cid,root_id rootId from tab_content_comment where id=#{id}
+	</select>
+	
+</mapper>
+
+

@@ -11,6 +11,7 @@ import com.unisharing.hoola.hoolaredis.service.comment.IRedisCommentService;
 import com.unisharing.hoola.hoolaredis.service.content.IRedisContentService;
 import com.unisharing.hoola.hoolaredis.service.timeline.IRedisTimelineService;
 import com.unisharing.hoola.hoolaredis.service.user.IRedisUserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.DefaultStringRedisConnection;
 import org.springframework.data.redis.connection.RedisZSetCommands.Aggregate;
 import org.springframework.data.redis.core.ZSetOperations.TypedTuple;
@@ -20,13 +21,18 @@ import org.springframework.data.redis.hash.JacksonHashMapper;
 import org.springframework.data.redis.support.atomic.RedisAtomicLong;
 import org.springframework.data.redis.support.collections.DefaultRedisMap;
 import org.springframework.data.redis.support.collections.RedisMap;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
-
+@Service("redisMessageService")
 public class RedisMessageServiceImpl extends BaseRedisService implements IRedisMessageService {
+	@Autowired
 	IRedisUserService redisUserService;
+	@Autowired
 	IRedisContentService redisContentService;
+	@Autowired
 	IRedisCommentService redisCommentService;
+	@Autowired
 	IRedisTimelineService redisTimelineService;
 	
 	private final HashMapper<MessageModel, String, String> messageMapper = new DecoratingStringHashMapper<MessageModel>(

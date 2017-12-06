@@ -21,7 +21,6 @@ public class ESIndexBuilderImpl implements IESIndexBuilder {
 	
 	private String openUserType;
 
-	@Override
 	public void buildUserIndex(IndexUserModel user) {
 		JestClient client = jestClientFactory.getObject();
 		try {
@@ -35,7 +34,7 @@ public class ESIndexBuilderImpl implements IESIndexBuilder {
 	}
 
 
-	@Override
+
 	public void buildConentIndex(IndexContentModel content) {
 		JestClient client = jestClientFactory.getObject();
 		try {
@@ -48,8 +47,7 @@ public class ESIndexBuilderImpl implements IESIndexBuilder {
 			client=null;
 		}
 	}
-	
-	@Override
+
 	public void buildOpenUserIndex(IndexOpenUserModel openUser) {
 		JestClient client = jestClientFactory.getObject();
 		try {
@@ -63,7 +61,6 @@ public class ESIndexBuilderImpl implements IESIndexBuilder {
 		}
 	}
 
-	@Override
 	public void deleteUserIndex(long uid) {
 		
 		JestClient client = jestClientFactory.getObject();
@@ -78,7 +75,6 @@ public class ESIndexBuilderImpl implements IESIndexBuilder {
 	}
 
 
-	@Override
 	public void deleteContentIndex(long cid) {
 		JestClient client = jestClientFactory.getObject();
 		try {

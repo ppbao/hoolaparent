@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.unisharing.hoola.hoolaclient.dao.ClientUserMapper">
+
+	<resultMap type="UserModel" id="result_usermodel">
+		<result property="loginPassward" column="login_password" />
+		<result property="nickName" column="nick_name" />
+		<result property="avatarUrl" column="avatar_url" />
+		<result property="createTime" column="create_time" />
+		<result property="lastLoginTime" column="last_login_time" />
+		<result property="backgroundUrl" column="background_url" />
+		<result property="roleId" column="role_id" />
+	</resultMap>
+
+	<resultMap type="OpenFriend" id="result_openfriend">
+		<result property="openType" column="open_type" />
+		<result property="openUserId" column="open_uid" />
+		<result property="openNickName" column="open_nickname" />
+		<result property="openUserName" column="open_username" />
+		<result property="avatarUrl" column="avatar_url" />
+		<result property="matchedUid" column="matched_uid" />
+	</resultMap>
+
+	<insert id="insertUserInfo" parameterType="UserModel">
+		<![CDATA[ INSERT INTO
+		tab_user_info
+		(uid,
+		email,
+		login_password,
+		nick_name,
+		mobile,
+		avatar_url,
+		create_time,
+		longitude,
+		atitude,
+		last_login_time,
+		signature,
+		background_url,
+		role_id,
+		device_token
+		)
+		VALUES
+		(
+		#{uid},
+		#{email},
+		#{loginPassward},
+		#{nickName},
+		#{mobile},
+		#{avatarUrl},
+		#{createTime},
+		#{longitude},
+		#{atitude},
+		#{lastLoginTime},
+		#{signature},
+		#{backgroundUrl},
+		#{roleId},
+		#{deviceToken}
+		);]]>
+	</insert>
+
+	<insert id="insertUserToken" parameterType="UserModel">
+	<![CDATA[ 	INSERT INTO
+		tab_user_token
+		(uid,
+		token,
+		expires_in,
+		create_time
+		)
+		VALUES
+		(
+		#{uid},
+		#{token},
+		0,
+		#{createTime}
+		);]]>
+	</insert>
+
+	<insert id="insertUserBind" parameterType="BindModel">
+	<![CDATA[ 	INSERT INTO
+		tab_user_bind
+		(uid,
+		open_nickname,
+		open_type,
+		open_uid,
+		access_token,
+		refresh_token,
+		expires_in,
+		create_time
+		)
+		VALUES
+		(
+		#{uid},
+		#{openNickName},
+		#{openType},
+		#{openUid},
+		#{accessToken},
+		#{refreshToken},
+		0,
+		#{createtime}
+		)]]>
+	</insert>
+	<update id="updateUserInfo" parameterType="UserModel">
+		update tab_user_info
+		<set>
+			<if test="loginPassward != null and loginPassward != '' ">
+				login_password = #{loginPassward},
+			</if>
+			<if test="nickName != null and nickName != '' ">
+				<![CDATA[nick_name = #{nickName},]]>
+			</if>
+			<if test="lastLoginTime != null and lastLoginTime != '' ">
+				last_login_time = #{lastLoginTime},
+			</if>
+			<if test="avatarUrl != null and avatarUrl != '' ">
+				avatar_url = #{avatarUrl},
+			</if>
+			<if test="signature != null and signature != '' ">
+				<![CDATA[signature = #{signature},]]>
+			</if>
+			<if test="videoUrl != null and videoUrl != '' ">
+				introduce_video_url = #{videoUrl},
+			</if>
+			<if test="videoFaceUrl != null and videoFaceUrl != '' ">
+				<![CDATA[introduce_thumbnails_url = #{videoFaceUrl},]]>
+			</if>
+			<if test="backgroundUrl != null and backgroundUrl != '' ">
+				background_url = #{backgroundUrl},
+			</if>
+			<if test="roleId != null and roleId != '' ">
+				role_id = #{roleId},
+			</if>
+			<if test="mobile != null and mobile != '' ">
+				mobile = #{mobile},
+			</if>
+			<if test="deviceToken != null">
+				device_token = #{deviceToken}
+			</if>
+			
+			
+			
+		</set>
+		where uid = #{uid};
+	</update>
+
+	<update id="updateUserBind" parameterType="BindModel">
+		update tab_user_bind
+		<set>
+			<if test="accessToken != null and accessToken != '' ">
+				access_token = #{accessToken},
+			</if>
+			<if test="openNickName != null and openNickName != '' ">
+				<![CDATA[open_nickname = #{openNickName},]]>
+			</if>
+			<if test="refreshToken != null and refreshToken != '' ">
+				refresh_token = #{refreshToken},
+			</if>
+			<if test="createtime != null and createtime != '' ">
+				create_time = #{createtime}
+			</if>
+		</set>
+		where uid = #{uid};
+	</update>
+
+	<update id="updateUserToken" parameterType="UserTokenModel">
+		update tab_user_token
+		<set>
+			<if test="token != null and token != '' ">
+				token = #{token},
+			</if>
+			<if test="createTime != null and createTime != '' ">
+				create_time = #{createTime}
+			</if>
+		</set>
+		where uid = #{uid};
+	</update>
+
+	<select id="selectUserInfo" parameterType="UserModel" resultMap="result_usermodel">
+		select * from tab_user_info where uid=#{uid}
+	</select>
+
+	<insert id="inserOpenFriend" parameterType="OpenFriend" useGeneratedKeys="true" keyProperty="id">
+		<![CDATA[ insert into
+		tab_user_3thfriend
+		(uid,
+		open_type,
+		open_uid,
+		open_nickname,
+		open_username,
+		avatar_url
+		)
+		values(
+		#{uid},
+		#{openType},
+		#{openUserId},
+		#{openNickName},
+		#{openUserName},
+		#{avatarUrl}
+		)]]>
+	</insert>
+
+	<insert id="insertMobiles" parameterType="UserMobileModel">
+		<![CDATA[ insert into tab_user_mobiles
+		(uid,
+		mobile,
+		name,
+		create_time
+		)
+		values
+		(
+		#{uid},
+		#{mobile},
+		#{nickName},
+		#{crateTime}
+		)]]>
+
+
+
+
+
+	</insert>
+	
+	<select id="getMobiles" parameterType="Map" resultType="UserMobileModel">
+	select uid,mobile,name nickName from tab_user_mobiles where uid=#{uid} mobile=#{mobile}
+	</select>
+
+
+
+	<select id="selectOpenFriend" parameterType="OpenFriend"
+		resultMap="result_openfriend">
+		select * from tab_user_3thfriend where uid=#{uid} and
+		open_type=#{openType}
+		and open_uid=#{openUserId}
+	</select>
+
+
+	<parameterMap id="clientParameterMap" type="Map">
+		<parameter property="p_exectype" jdbcType="INTEGER"
+			javaType="java.lang.Integer" mode="IN" />
+		<parameter property="p_functype" jdbcType="INTEGER"
+			javaType="java.lang.Integer" mode="IN" />
+		<parameter property="p_uid" jdbcType="BIGINT" javaType="java.lang.Long"
+			mode="IN" />
+	</parameterMap>
+
+	<update id="updateThfriend" parameterMap="clientParameterMap"
+		statementType="CALLABLE">
+     <![CDATA[
+     {call Proc_match_UserFriendData(?, ?, ?)}  
+     ]]>
+	</update>
+
+
+	<select id="queryThfriendList" parameterType="Map" resultMap="result_usermodel">
+		select a.* from tab_user_info a,tab_user_3thfriend b where
+		a.uid=b.matched_uid and b.is_matched=1 and b.uid=#{uid} 
+   <![CDATA[
+    and b.matched_time>=#{matchedTime}
+    ]]>
+	</select>
+
+	<select id="queryMobileList" parameterType="Map" resultMap="result_usermodel">
+		select a.* from tab_user_info a,tab_user_mobiles b where
+		a.uid=b.matched_uid and b.is_matched=1 and b.uid=#{uid} 
+   <![CDATA[
+    and b.matched_time>=#{matchedTime}
+    ]]>
+	</select>
+
+	<select id="queryAllList" parameterType="Map" resultMap="result_usermodel">
+		select a.* from tab_user_info a,tab_user_3thfriend b where
+		a.uid=b.matched_uid and b.is_matched=1 and b.uid=#{uid} 
+   <![CDATA[
+    and b.matched_time>=#{matchedTime}
+    ]]>
+		union
+		select a.* from tab_user_info a,tab_user_mobiles b where
+		a.uid=b.matched_uid
+		and b.is_matched=1 and b.uid=#{uid} 
+   <![CDATA[
+    and b.matched_time>=#{matchedTime}
+    ]]>
+	</select>
+
+	<insert id="insertFriend" parameterType="FriendModel">
+		insert into tab_user_friend(uid,fuid,create_time,is_friend)
+		values(#{uid},#{fid},#{createTime},#{isFriend})
+	</insert>
+
+	<delete id="deleteFriend" parameterType="FriendModel">
+		delete from tab_user_friend where uid=#{uid} and fuid=#{fid}
+	</delete>
+
+	<select id="getFriendModel" parameterType="FriendModel"
+		resultType="FriendModel">
+		select id,uid,fuid fid,create_time createTime,is_friend isFriend,is_true
+		isTrue from tab_user_friend where uid=#{uid} and fuid=#{fid}
+	</select>
+
+	<update id="updateIsFriend" parameterType="FriendModel">
+		update tab_user_friend set is_friend=#{isFriend} where uid=#{fid} and
+		fuid=#{uid}
+	</update>
+
+	<select id="queryBindModelList" resultType="BindModel">
+		select uid,open_type openType,open_uid openUid,access_token accessToken from
+		tab_user_bind
+	</select>
+
+	<select id="queryOpenFriendlByUid" parameterType="OpenFriend"
+		resultMap="result_openfriend">
+		select * from tab_user_3thfriend where uid=#{uid} and
+		open_type=#{openType}
+	</select>
+
+	<select id="queryMatchedOpenFriends" resultType="OpenFriend"
+		parameterType="Long">
+		select uid, matched_uid as matchedUid,open_type openType,open_uid
+		openUserId,open_nickname
+		openNickName,open_username
+		openUserName,avatar_url, is_matched as isMatched from
+		tab_user_3thfriend where uid=#{uid} and is_matched > 0
+	</select>
+
+	<update id="updateOpenFriend" parameterType="Long">
+		update tab_user_3thfriend set is_matched=1 where is_matched=2 and uid=#{uid}
+	</update>
+
+	<select id="queryMatchUserMobileModels" resultType="OpenFriend"
+		parameterType="Long">
+		select uid,matched_uid as matchedUid,3 as openType,name as openNickName,mobile
+		openUserId ,is_matched as isMatched from tab_user_mobiles 
+		where is_matched>0 and uid=#{uid}
+	</select>
+
+	<update id="updateMatchUserMobileModels" parameterType="Long">
+		update tab_user_mobiles set is_matched=1 where is_matched=2 and uid=#{uid}
+	</update>
+	
+	
+	<update id="updateUserGzs" parameterType="Map">
+		update tab_user_info set follow_num=follow_num-#{num} where uid=#{uid}
+	</update>
+	
+	<update id="updateUserZfss" parameterType="Map">
+		update tab_user_info set fans_num=fans_num-#{num} where uid=#{uid}
+	</update>
+	
+	<update id="updateUserHysAndGzs" parameterType="Map">
+		update tab_user_info set friend_num=friend_num-#{num2},follow_num=follow_num-#{num}  where uid=#{uid}
+	</update>
+	
+	<update id="updateUserHysAndZfss" parameterType="Map">
+		update tab_user_info set friend_num=friend_num-#{num2},fans_num=fans_num-#{num}  where uid=#{uid}
+	</update>
+
+	<update id="updateUserRelationshipCount1" parameterType="long">
+		<!-- select 1 from tab_user_info where uid = #{uid} for update; -->
+		set session transaction isolation level read committed;
+		update tab_user_info set fans_num = fans_num + 1, friend_num = friend_num + 1,follow_num = follow_num + 1
+		 where uid=#{uid};
+	</update>
+	
+	<insert id="insertInvite" parameterType="InviteModel">
+	insert into tab_log_invite(uid,nick_name,type,create_time) values(#{uid},#{nickName},#{type},#{createTime})
+	</insert>
+</mapper>
+
+

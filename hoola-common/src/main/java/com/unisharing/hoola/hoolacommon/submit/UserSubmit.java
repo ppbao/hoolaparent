@@ -22,7 +22,7 @@ public class UserSubmit implements Serializable {
 	private String nickName;	//昵称
 	private String avatarUrl;	//头像
 	private float longitude;	//经度
-	private float latitude;		//纬度
+	private float atitude;		//纬度
 	
 	 
 	private int openType;	//开放平台类型
@@ -50,10 +50,10 @@ public class UserSubmit implements Serializable {
 		this.longitude = longitude;
 	}
 	public float getLatitude() {
-		return latitude;
+		return atitude;
 	}
 	public void setLatitude(float latitude) {
-		this.latitude = latitude;
+		this.atitude = atitude;
 	}
 	public int getOpenType() {
 		return openType;
@@ -113,7 +113,7 @@ public class UserSubmit implements Serializable {
 			model.setEmail("");
 		}
 		model.setLastLoginTime(0);
-		model.setLatitude(latitude);
+		model.setAtitude(atitude);
 		model.setLoginPassward(this.loginPassword);
 		model.setLongitude(longitude);
 		model.setMobile("");
@@ -155,7 +155,7 @@ public class UserSubmit implements Serializable {
 	public String toString() {
 		return "UserSubmit [accessToken=" + accessToken + ", avatarUrl="
 				+ avatarUrl + ", expiresDate=" + expiresDate + ", latitude="
-				+ latitude + ", longitude=" + longitude + ", nickName="
+				+ atitude + ", longitude=" + longitude + ", nickName="
 				+ nickName + ", openType=" + openType + ", openUid="
 				+ openUid + ", refreshToken=" + refreshToken + "]";
 	}

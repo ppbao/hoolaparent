@@ -13,21 +13,23 @@ import com.unisharing.hoola.hoolaredis.service.content.IRedisContentService;
 import com.unisharing.hoola.hoolaredis.service.user.IRedisUserService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.hash.DecoratingStringHashMapper;
 import org.springframework.data.redis.hash.HashMapper;
 import org.springframework.data.redis.hash.JacksonHashMapper;
 import org.springframework.data.redis.support.atomic.RedisAtomicLong;
 import org.springframework.data.redis.support.collections.DefaultRedisMap;
 import org.springframework.data.redis.support.collections.RedisMap;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
-
+@Service("redisCommentService")
 public class RedisCommentServiceImpl extends BaseRedisService implements
 		IRedisCommentService {
 	Log logger = LogFactory.getLog(RedisCommentServiceImpl.class);
-	
+	@Autowired
 	IRedisUserService redisUserService;
-	
+	@Autowired
 	IRedisContentService redisContentService;
 	
 	private final HashMapper<CommentModel, String, String> commentMapper = new DecoratingStringHashMapper<CommentModel>(

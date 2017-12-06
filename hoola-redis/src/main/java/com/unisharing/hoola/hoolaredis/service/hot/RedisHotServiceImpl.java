@@ -14,25 +14,31 @@ import com.unisharing.hoola.hoolaredis.service.user.IRedisRelationshipService;
 import com.unisharing.hoola.hoolaredis.service.user.IRedisUserService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.hash.DecoratingStringHashMapper;
 import org.springframework.data.redis.hash.HashMapper;
 import org.springframework.data.redis.hash.JacksonHashMapper;
 import org.springframework.data.redis.support.collections.DefaultRedisMap;
 import org.springframework.data.redis.support.collections.RedisMap;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
-
+@Service("redisHotService")
 public class RedisHotServiceImpl extends BaseRedisService implements IRedisHotService {
 
 	Log logger = LogFactory.getLog(RedisHotServiceImpl.class);
-	
+	@Autowired
 	IRedisRelationshipService redisRelationshipService;
+	@Autowired
 	IRedisUserService redisUserService;
+	@Autowired
 	IRedisContentService redisContentService;
+	@Autowired
 	IRedisTimelineService redisTimelineService;
+	@Autowired
 	IRedisHotService redisHotService;
 	
 	private final HashMapper<UserRecommendModel, String, String> recommendUserMapper = new DecoratingStringHashMapper<UserRecommendModel>(

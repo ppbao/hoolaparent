@@ -4,7 +4,9 @@ import com.alibaba.fastjson.JSON;
 import com.unisharing.hoola.hoolacommon.NoticeMessage;
 import com.unisharing.hoola.hoolaredis.service.BaseRedisService;
 import org.springframework.data.redis.listener.ChannelTopic;
+import org.springframework.stereotype.Service;
 
+@Service("hoolaRedisPublisherService")
 public class HoolaRedisPublisherImpl extends BaseRedisService implements IRedisPublisher {
 
 	private ChannelTopic topic;

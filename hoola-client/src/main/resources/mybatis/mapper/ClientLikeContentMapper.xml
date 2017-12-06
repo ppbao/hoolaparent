@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.unisharing.hoola.hoolaclient.dao.ClientLikeContentMapper">
+	
+	
+	
+	<insert id="insertLikeContentModel" parameterType="LikeContentModel">
+	insert into tab_user_likecontent (uid,cid,create_time) values(#{uid},#{cid},#{createTime})
+	</insert>
+	
+	<delete id="deleteLikeContentModel" parameterType="LikeContentModel">
+	delete from tab_user_likecontent where uid=#{uid} and cid=#{cid}
+	</delete>
+	
+	<update id="updateContentLikeNum" parameterType="Map">
+	update tab_content_info set like_num=like_num-#{num} where cid=#{cid}
+	</update>
+
+
+
+</mapper>
+
+

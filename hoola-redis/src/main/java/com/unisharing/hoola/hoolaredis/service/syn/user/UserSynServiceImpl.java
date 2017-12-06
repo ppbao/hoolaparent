@@ -1,7 +1,6 @@
 package com.unisharing.hoola.hoolaredis.service.syn.user;
 
 
-import com.unisharing.hoola.hoolacommon.index.IIndexBuilder;
 import com.unisharing.hoola.hoolacommon.model.IndexUserModel;
 import com.unisharing.hoola.hoolacommon.model.UserModel;
 import com.unisharing.hoola.hoolacommon.utils.HoolaSecurity;
@@ -9,17 +8,22 @@ import com.unisharing.hoola.hoolaredis.key.TimelineKeyManager;
 import com.unisharing.hoola.hoolaredis.service.BaseRedisService;
 import com.unisharing.hoola.hoolaredis.service.user.IRedisRelationshipService;
 import com.unisharing.hoola.hoolaredis.service.user.IRedisUserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.ZSetOperations.TypedTuple;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
-
+@Service("userSynService")
 public class UserSynServiceImpl extends BaseRedisService implements
 		IUserSynService {
+	@Autowired
 	IRedisRelationshipService redisRelationshipService;
-	IRedisUserService redisUserService;
-	IIndexBuilder indexBuilder;
+	@Autowired
+    IRedisUserService redisUserService;
+
+	// todo IIndexBuilder indexBuilderService;
 	
 	@Override
 	public boolean synUserAdd(UserModel user) {
@@ -32,7 +36,7 @@ public class UserSynServiceImpl extends BaseRedisService implements
 			indexModel.setSignature(user.getSignature());
 			indexModel.setTime(user.getCreateTime());
 			indexModel.setUid(user.getUid());
-			indexBuilder.buildUserIndex(indexModel);
+    //todo        indexBuilderService.buildUserIndex(indexModel);
 			return true;
 		}
 		return false;
@@ -113,9 +117,9 @@ public class UserSynServiceImpl extends BaseRedisService implements
 			IRedisRelationshipService redisRelationshipService) {
 		this.redisRelationshipService = redisRelationshipService;
 	}
-
-	public void setIndexBuilder(IIndexBuilder indexBuilder) {
-		this.indexBuilder = indexBuilder;
-	}
+// todo    @Autowired
+//	public void setIndexBuilder(IIndexBuilder indexBuilderService) {
+//		this.indexBuilderService = indexBuilderService;
+//	}
 
 }

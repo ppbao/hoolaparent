@@ -1,4 +1,4 @@
-package com.unisharing.hoola.hoolacommon.index;
+package com.unisharing.hoola.hoolacommon.indexService;
 
 
 import com.unisharing.hoola.hoolacommon.model.IndexContentModel;
@@ -11,21 +11,28 @@ import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.json.JsonXContent;
-
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import java.io.IOException;
 
+@Service("indexBuilderService")
 public class IndexBuilderImpl implements IIndexBuilder {
 /*	private static String host = "192.168.10.205";
 	private static int port = 9200;*/
-	
+	@Value("${indexName}")
 	private String indexName;
+    @Value("${userTYpe}")
 	private String userType;
+    @Value("${contentType}")
 	private String contentType;
+    @Value("${openUserType}")
 	private String openUserType;
+    @Value("${searchClusterName}")
 	private String searchClusterName;
+    @Value("${searchServiceIp}")
 	private String searchServiceIp;
+    @Value("${searchServicePort}")
 	private int searchServicePort;
-	@Override
 	public void buildConentIndex(IndexContentModel content) {
 		Settings settings = ImmutableSettings.settingsBuilder().put(
 				"cluster.name", this.searchClusterName).build();
@@ -50,7 +57,7 @@ public class IndexBuilderImpl implements IIndexBuilder {
 		}
 	}
 
-	@Override
+
 	public void buildOpenUserIndex(IndexOpenUserModel openUser) {
 		Settings settings = ImmutableSettings.settingsBuilder().put(
 				"cluster.name", this.searchClusterName).build();
@@ -74,7 +81,7 @@ public class IndexBuilderImpl implements IIndexBuilder {
 
 	}
 
-	@Override
+
 	public void buildUserIndex(IndexUserModel user) {
 		Settings settings = ImmutableSettings.settingsBuilder().put(
 				"cluster.name", this.searchClusterName).build();
@@ -98,7 +105,7 @@ public class IndexBuilderImpl implements IIndexBuilder {
 		}
 	}
 
-	@Override
+
 	public void deleteContentIndex(long id) {
 		Settings settings = ImmutableSettings.settingsBuilder().put(
 				"cluster.name", this.searchClusterName).build();
@@ -115,7 +122,6 @@ public class IndexBuilderImpl implements IIndexBuilder {
 
 	}
 
-	@Override
 	public void deleteUserIndex(long id) {
 		Settings settings = ImmutableSettings.settingsBuilder().put(
 				"cluster.name", this.searchClusterName).build();
@@ -131,32 +137,32 @@ public class IndexBuilderImpl implements IIndexBuilder {
 		}
 	}
 
-	public void setIndexName(String indexName) {
-		this.indexName = indexName;
-	}
-
-	public void setUserType(String userType) {
-		this.userType = userType;
-	}
-
-	public void setContentType(String contentType) {
-		this.contentType = contentType;
-	}
-
-	public void setOpenUserType(String openUserType) {
-		this.openUserType = openUserType;
-	}
-
-	public void setSearchServiceIp(String searchServiceIp) {
-		this.searchServiceIp = searchServiceIp;
-	}
-
-	public void setSearchServicePort(int searchServicePort) {
-		this.searchServicePort = searchServicePort;
-	}
-
-	public void setSearchClusterName(String searchClusterName) {
-		this.searchClusterName = searchClusterName;
-	}
+//	public void setIndexName(String indexName) {
+//		this.indexName = indexName;
+//	}
+//
+//	public void setUserType(String userType) {
+//		this.userType = userType;
+//	}
+//
+//	public void setContentType(String contentType) {
+//		this.contentType = contentType;
+//	}
+//
+//	public void setOpenUserType(String openUserType) {
+//		this.openUserType = openUserType;
+//	}
+//
+//	public void setSearchServiceIp(String searchServiceIp) {
+//		this.searchServiceIp = searchServiceIp;
+//	}
+//
+//	public void setSearchServicePort(int searchServicePort) {
+//		this.searchServicePort = searchServicePort;
+//	}
+//
+//	public void setSearchClusterName(String searchClusterName) {
+//		this.searchClusterName = searchClusterName;
+//	}
 
 }

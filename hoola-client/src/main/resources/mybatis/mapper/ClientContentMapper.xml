@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.unisharing.hoola.hoolaclient.dao.ClientContentMapper">
+
+	<resultMap type="TagModel" id="result_tagmodel">
+		<result property="tagText" column="tag_text" />
+	</resultMap>
+	<!--  `key` 是关键词-->
+	<insert id="insertContentInfo" parameterType="ContentModel">
+		insert into tab_content_info
+		(cid,
+		title,
+		video_url_hd,
+		video_url,
+		play_time,
+		thumbnails_url,
+		description,
+		create_time,
+		upload_time,
+		uid,
+		comment_num,
+		like_num,
+		forward_num,
+		show_times,
+		longitude,
+		latitude,
+		location,
+		height,
+		width,
+		c_status,
+		is_private,
+		`keys`,
+		is_show,
+		md5_string,
+		description_true
+		)
+		values(
+		#{cid},
+		#{title},
+		#{videoUrlHD},
+		#{videoUrl},
+		#{playTime},
+		#{thumbnailsUrl},
+		#{description},
+		#{createTime},
+		#{uploadTime},
+		#{uid},
+		#{commentNum},
+		#{likeNum},
+		#{forwardNum},
+		#{showTimes},
+		#{longitude},
+		#{latilude},
+		#{location},
+		#{height},
+		#{width},
+		#{cStatus},
+		#{isPrivate},
+		#{key},
+		#{isShow},
+		#{md5},
+		#{originalDesc}
+		)
+	</insert>
+
+	<insert id="insertTagInfo" parameterType="TagModel"
+		useGeneratedKeys="true" keyProperty="tid">
+		insert into tab_tag_info
+		(
+		tag_text
+		)
+		values(
+		#{tagText}
+		)
+	</insert>
+
+	<select id="selectTagInfo" parameterType="java.lang.String"
+		resultMap="result_tagmodel">
+		select * from tab_tag_info where tag_text=#{substr}
+	</select>
+	
+	<select id="getContentModel" parameterType="long" resultType="ContentModel">
+	select cid,uid from tab_content_info where cid=#{cid}
+	</select>
+
+	<insert id="insertContentTag" parameterType="ContentTagModel">
+		insert into tab_content_tag
+		(tid,
+		cid
+		)
+		values(
+		#{tid},
+		#{cid}
+		)
+	</insert>
+
+	<update id="updateContent" parameterType="Long">
+		update tab_content_info
+		set c_status=1 where cid=#{cid}
+	</update>
+	
+	<select id="getContentRecommend" parameterType="long" resultType="ContentModel">
+	select cid from tab_editor_contentrecommend where type=1 and cid=#{cid}
+	</select>
+	
+	<update id="updateContentMd5" parameterType="ContentModel">
+		update tab_content_info set md5_string=#{md5} where cid=#{cid};
+	</update>
+	
+	<update id="updateContentShowTimes" parameterType="Map">
+	update tab_content_info set show_times=#{st} where cid=#{cid}
+	</update>
+	
+	<delete id="deleteRecommendModel" parameterType="long">
+	delete from tab_editor_contentrecommend where cid=#{cid} and type=1
+	</delete>
+	
+	<update id="updateContentSinaShareNum" parameterType="Map">
+	update tab_content_info set sinashare_num=sinashare_num+#{num} where cid=#{cid}
+	</update>
+	
+	<update id="updateContentQuanShareNum" parameterType="Map">
+	update tab_content_info set quanshare_num=quanshare_num+#{num} where cid=#{cid}
+	</update>
+	
+	<insert id="insertShareContent" parameterType="LogShareModel">
+	insert into tab_log_sharecontent(uid,cid,flag,type,create_time) values(#{uid},#{cid},#{flag},#{type},#{createTime}) 
+	</insert>
+	
+	<insert id="insertShowContent" parameterType="LogShowModel">
+	insert into tab_log_showcontent(cid,type,create_time) values(#{cid},#{type},#{createTime})
+	</insert>
+	
+	<insert id="insertSubjectContent" parameterType="SubjectContentModel">
+	insert into tab_subject_content(sid,cid) values(#{sid},#{cid})
+	</insert>
+
+</mapper>
+
+

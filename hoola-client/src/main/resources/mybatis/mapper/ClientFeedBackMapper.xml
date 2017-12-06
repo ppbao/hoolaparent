@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.unisharing.hoola.hoolaclient.dao.ClientFeedBackMapper">
+	
+
+
+<insert id="insertUserFeedBackModel" parameterType="FeedBackModel">
+insert into tab_user_feedback
+(uid,
+ feedback_text,
+ screenshot_url,
+ create_time,
+ is_check
+)
+values
+(#{uid},
+ #{feedbackText},
+ #{screenshotUrl},
+ #{createTime},
+ #{isCheck}
+)
+</insert>
+</mapper>
+
+

@@ -23,7 +23,8 @@ public class UserModel implements Serializable {
 	private String avatarUrl;	//头像
 	private long createTime;	//注册时间
 	private float longitude;
-	private float latitude;
+
+	private float atitude;
 	private long lastLoginTime;	//最后登录时间
 	private String signature;	//签名
 	private String backgroundUrl;//背景图片
@@ -87,11 +88,12 @@ public class UserModel implements Serializable {
 	public void setLongitude(float longitude) {
 		this.longitude = longitude;
 	}
-	public float getLatitude() {
-		return latitude;
+
+	public float getAtitude() {
+		return atitude;
 	}
-	public void setLatitude(float latitude) {
-		this.latitude = latitude;
+	public void setAtitude(float atitude) {
+		this.atitude = atitude;
 	}
 	public long getLastLoginTime() {
 		return lastLoginTime;
@@ -228,7 +230,7 @@ public class UserModel implements Serializable {
 		return "UserModel [avatarUrl=" + avatarUrl + ", backgroundUrl="
 				+ backgroundUrl + ", createTime=" + createTime + ", email="
 				+ email + ", lastLoginTime=" + lastLoginTime + ", latitude="
-				+ latitude + ", loginPassward=" + loginPassward
+				+ atitude + ", loginPassward=" + loginPassward
 				+ ", longitude=" + longitude + ", mobile=" + mobile
 				+ ", nickName=" + nickName + ", roleId=" + roleId
 				+ ", signature=" + signature + ", token=" + token + ", uid="

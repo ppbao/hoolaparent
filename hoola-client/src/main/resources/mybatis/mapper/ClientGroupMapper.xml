@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.unisharing.hoola.hoolaclient.dao.ClientGroupMapper">
+	<resultMap type="GroupModel" id="result_groupmodel">
+		<result property="groupName" column="group_name" />
+		<result property="createTime" column="create_time" />
+	</resultMap>
+
+
+<insert id="insertGroupModel" parameterType="GroupModel" useGeneratedKeys="true" keyProperty="id">
+insert into tab_user_friendgroup
+(uid,
+ group_name,
+ create_time
+)
+values
+(#{uid},
+ #{groupName},
+ #{createTime}
+)
+</insert>
+<delete id="deleteGroupModel" parameterType="Map">
+delete from tab_user_friendgroup where uid=#{uid} and group_name=#{groupName}
+</delete>
+
+<select id="getGroupModel" parameterType="GroupModel" resultMap="result_groupmodel">
+select * from tab_user_friendgroup where uid=#{uid} and group_name=#{groupName}
+</select>
+
+<insert id="insertGroupRelation" parameterType="GroupRelationModel">
+  insert into tab_user_grouprelation(gid,rel_id,fuid,create_time,is_friend,is_true,add_time) values(#{gid},#{relId},#{fuid},#{createTime},#{isFriend},#{isTrue},#{addTime})
+</insert>
+
+<delete id="deleteGroupRelation" parameterType="GroupRelationModel">
+delete from tab_user_grouprelation where gid=#{gid} and fuid=#{fuid}
+</delete>
+
+<update id="updateGroupModel" parameterType="Map">
+update tab_user_friendgroup set group_name=#{newGroupName} where uid=#{uid} and group_name=#{oldGroupName}
+</update>
+
+
+</mapper>
+
+
