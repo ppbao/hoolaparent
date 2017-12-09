@@ -12,16 +12,18 @@ import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.json.JsonXContent;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
 import java.io.IOException;
 
 @Service("indexBuilderService")
+@PropertySource(value ="classpath:common/indexfile.properties")
 public class IndexBuilderImpl implements IIndexBuilder {
 /*	private static String host = "192.168.10.205";
 	private static int port = 9200;*/
 	@Value("${indexName}")
 	private String indexName;
-    @Value("${userTYpe}")
+    @Value("${userType}")
 	private String userType;
     @Value("${contentType}")
 	private String contentType;

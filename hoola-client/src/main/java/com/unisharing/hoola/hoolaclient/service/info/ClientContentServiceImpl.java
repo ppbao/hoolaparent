@@ -17,7 +17,7 @@ import java.util.Set;
 public class ClientContentServiceImpl implements IClientContentService {
     @Autowired
 	ClientContentMapper clientContentMapper;
-	
+	@Autowired
 	private IRedisContentService redisContentService;
 
 	public ClientContentMapper getClientContentMapper() {

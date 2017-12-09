@@ -19,8 +19,8 @@
   <modules>
       <module>hoola-common</module>
       <module>hoola-redis</module>
-      <module>hoola-datacenter</module>
       <module>hoola-client</module>
+      <module>hoola-datacenter</module>
   </modules>
   <dependencies>
 

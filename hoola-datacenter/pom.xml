@@ -35,6 +35,28 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+        <dependency>
+            <groupId>com.unisharing.hoola</groupId>
+            <artifactId>hoola-redis</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.unisharing.hoola</groupId>
+            <artifactId>hoola-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.unisharing.hoola</groupId>
+            <artifactId>hoola-client</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+		<dependency>
+			<groupId>com.unisharing.hoola</groupId>
+			<artifactId>hoola-redis</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

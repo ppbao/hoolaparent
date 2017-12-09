@@ -3,14 +3,12 @@ package com.unisharing.hoola.hoolaclient.service.user;
 
 import com.unisharing.hoola.hoolaclient.dao.ClientUserMapper;
 import com.unisharing.hoola.hoolacommon.model.*;
-import com.unisharing.hoola.hoolacommon.service.IShareService;
 import com.unisharing.hoola.hoolacommon.utils.EmojiUtils;
 import com.unisharing.hoola.hoolaredis.service.syn.user.IUserSynService;
 import com.unisharing.hoola.hoolaredis.service.user.IRedisRelationshipService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

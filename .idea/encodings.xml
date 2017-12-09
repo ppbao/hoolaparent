@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../hoolaparent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../hoolaparent/hoola-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../hoolaparent/hoola-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../hoolaparent/hoola-datacenter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../hoolaparent/hoola-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hoola-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hoola-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hoola-datacenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hoola-redis" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
