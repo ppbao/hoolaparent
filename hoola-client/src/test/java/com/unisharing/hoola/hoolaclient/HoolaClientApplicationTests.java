@@ -26,9 +26,9 @@ public class HoolaClientApplicationTests {
     public void testAdd()
     {
         UserModel userModel = new UserModel();
-        userModel.setUid(9);
-        userModel.setLoginPassward("dd");
-        userModel.setEmail("www.sohu9.com");
+        userModel.setUid(10);
+        userModel.setLoginPassward("ddd");
+        userModel.setEmail("www.sohu10.com");
         userMapper.insertUserInfo(userModel);
 
     }

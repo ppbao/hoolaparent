@@ -49,8 +49,7 @@ public class ActionForm implements Serializable ,Comparable<ActionForm>{
 				+ actionUser + ", content=" + content + ", time=" + time
 				+ ", top=" + top + "]";
 	}
-	
-	@Override
+
 	public int compareTo(ActionForm arg) {
 		if (this.content.getLikeNum() > arg.content.getLikeNum()){
 			return -1;
