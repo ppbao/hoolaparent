@@ -13,11 +13,11 @@ import com.unisharing.hoola.hoolaredis.service.user.IRedisUserService;
 import org.springframework.data.redis.connection.SortParameters.Order;
 import org.springframework.data.redis.core.query.SortQuery;
 import org.springframework.data.redis.core.query.SortQueryBuilder;
-
+import org.springframework.stereotype.Service;
 
 
 import java.util.*;
-
+@Service
 public class SearcherImpl extends BaseRedisService implements ISearcher {
 	
 	IRedisContentService redisContentService;

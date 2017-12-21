@@ -12,7 +12,7 @@ public class SystemSynServiceImpl extends BaseRedisService implements ISystemSyn
 		jmsTemplate.boundSetOps(SystemKeyManager.getBadwordsKey()).add(badword.trim());
 		//重建
 		//Set wordSet = jmsTemplate.boundSetOps(SystemKeyManager.getBadwordsKey()).members();
-		//DuanquUtils.wordSetToMap(wordSet);
+		//HoolaUtils.wordSetToMap(wordSet);
 	}
 
 	@SuppressWarnings("unchecked")
@@ -21,7 +21,7 @@ public class SystemSynServiceImpl extends BaseRedisService implements ISystemSyn
 		jmsTemplate.boundSetOps(SystemKeyManager.getBadwordsKey()).remove(badword.trim());
 		//重建
 		//Set wordSet = jmsTemplate.boundSetOps(SystemKeyManager.getBadwordsKey()).members();
-		//DuanquUtils.wordSetToMap(wordSet);
+		//HoolaUtils.wordSetToMap(wordSet);
 	}
 
 	@SuppressWarnings("unchecked")

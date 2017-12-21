@@ -101,7 +101,7 @@ public class ContentServiceImpl extends BaseRedisService implements IContentServ
 				
 				ActionModel action = new ActionModel(bean.getUid(), ActionModel.Action.CREATE.getMark(),bean.getCid());
 				//TODO 发送压缩通知 暂缓
-				//compressPublisher.publish(new NoticeMessage(DuanquUtils.getIp(),DuanquUtils.getIp(),NoticeMessage.MessageType.COMPRESS));
+				//compressPublisher.publish(new NoticeMessage(HoolaUtils.getIp(),HoolaUtils.getIp(),NoticeMessage.MessageType.COMPRESS));
 				
 				//公开内容推送给到粉丝动态列表-内容分发
 				if (bean.getIsPrivate() == 0 && !StringUtils.hasText(bean.getGroupNames())){
@@ -129,9 +129,9 @@ public class ContentServiceImpl extends BaseRedisService implements IContentServ
 						//发送At消息到新浪微波
 						if (StringUtils.hasText(bean.getAtUserSina())) {
 							/*String description = EmojiUtils.decodeEmoji(bean.getDescription());
-							String url = DuanquConfig.getWapHost() + bean.getKey() + ".htm?from=sina";
+							String url = HoolaConfig.getWapHost() + bean.getKey() + ".htm?from=sina";
 							String content = cutAtContent(description, bean.getAtUserSina());
-							content += url + DuanquConfig.getComeFrom();
+							content += url + HoolaConfig.getComeFrom();
 							try {
 								shareService.shareToSina(bean.getThumbnailsUrl(), content, sinaBindModel.getAccessToken());
 							} catch (Exception e) {
@@ -146,8 +146,8 @@ public class ContentServiceImpl extends BaseRedisService implements IContentServ
 							if (bean.getShareSina() == 1){
 								/*String description = EmojiUtils.decodeEmoji(bean.getDescription());
 								String content = cutShareContent(description);
-								String url = DuanquConfig.getWapHost() + bean.getKey() + ".htm?from=sina";
-								content += url + DuanquConfig.getComeFrom();
+								String url = HoolaConfig.getWapHost() + bean.getKey() + ".htm?from=sina";
+								content += url + HoolaConfig.getComeFrom();
 								try{
 									shareService.shareToSina(bean.getThumbnailsUrl(), content, sinaBindModel.getAccessToken());
 								}catch (Exception e){
@@ -164,9 +164,9 @@ public class ContentServiceImpl extends BaseRedisService implements IContentServ
 						//发送At消息到腾讯微博
 						if (StringUtils.hasText(bean.getAtUserTencent())) {
 							/*String description = EmojiUtils.decodeEmoji(bean.getDescription());
-							String url = DuanquConfig.getWapHost() + bean.getKey() + ".htm";
+							String url = HoolaConfig.getWapHost() + bean.getKey() + ".htm";
 							String content = cutAtContent(description, bean.getAtUserTencent());
-							content += url + DuanquConfig.getComeFrom();
+							content += url + HoolaConfig.getComeFrom();
 							content = content.replaceAll("@趣拍APP", "@qupaiapp");
 							try {
 								shareService.shareToQQWeibo(bean.getThumbnailsUrl(), content, 
@@ -183,9 +183,9 @@ public class ContentServiceImpl extends BaseRedisService implements IContentServ
 							if (bean.getShareTencentWeiBo() == 1){
 								//TODO 分享到腾讯微博
 								/*String description = EmojiUtils.decodeEmoji(bean.getDescription());
-								String url = DuanquConfig.getWapHost() + bean.getKey() + ".htm?from=qqweibo";
+								String url = HoolaConfig.getWapHost() + bean.getKey() + ".htm?from=qqweibo";
 								String content = cutShareContent(description);
-								content += url + DuanquConfig.getComeFrom();
+								content += url + HoolaConfig.getComeFrom();
 								content = content.replaceAll("@趣拍APP", "@qupaiapp");
 								try {
 									shareService.shareToQQWeibo(bean.getThumbnailsUrl(), content, 
@@ -202,11 +202,11 @@ public class ContentServiceImpl extends BaseRedisService implements IContentServ
 						if (bean.getShareTencent() == 1) {
 							/*try{
 								String description = EmojiUtils.decodeEmoji(bean.getDescription());
-								String url = DuanquConfig.getWapHost() + bean.getKey() + ".htm";
+								String url = HoolaConfig.getWapHost() + bean.getKey() + ".htm";
 								shareService.shareToQZone("趣拍视频来一发，咩哈哈哈哈！戳这里，戳这里>>>",description, url,
-										DuanquConfig.getAliyunHDVideoDomain()
+										HoolaConfig.getAliyunHDVideoDomain()
 												+ bean.getVideoUrlHD(),
-										DuanquConfig.getAliyunThumbnailDomain()
+										HoolaConfig.getAliyunThumbnailDomain()
 												+ bean.getThumbnailsUrl(),
 										qqBindModel.getAccessToken(),
 										qqBindModel.getOpenUid());

@@ -10,6 +10,8 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.Random;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes =HoolaClientApplication.class )
@@ -26,9 +28,11 @@ public class HoolaClientApplicationTests {
     public void testAdd()
     {
         UserModel userModel = new UserModel();
-        userModel.setUid(10);
-        userModel.setLoginPassward("ddd");
-        userModel.setEmail("www.sohu10.com");
+        Random random = new Random();
+
+        userModel.setUid( random.nextInt());
+        userModel.setLoginPassward("ddd5");
+        userModel.setEmail("www.sohu15.com");
         userMapper.insertUserInfo(userModel);
 
     }

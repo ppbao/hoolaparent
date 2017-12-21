@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.util.HashSet;
 import java.util.Set;
-@Component
 public class IndexBuilderImpl extends BaseRedisService implements
         IIndexBuilder {
 

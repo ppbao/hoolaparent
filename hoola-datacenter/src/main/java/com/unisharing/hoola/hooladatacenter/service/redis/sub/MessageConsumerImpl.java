@@ -36,7 +36,7 @@ public class MessageConsumerImpl implements MessageListener {
 
 		NoticeMessage notice = JSON.parseObject(message.getBody(),
 				NoticeMessage.class);
-		// if (notice.getReceiver().equals(DuanquUtils.getIp())) {
+		// if (notice.getReceiver().equals(HoolaUtils.getIp())) {
 		// 内容上传
 		if (notice.getMessageType().equals(
 				NoticeMessage.MessageType.CONTENT_ADD)) {
