@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27827b8f-6383-442c-8705-c174e247b388" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/config/AppConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/interceptor/AuthInterceptor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/interceptor/PerformanceMonitorInterceptor.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hoola-client/pom.xml" afterPath="$PROJECT_DIR$/hoola-client/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hoola-client/src/test/java/com/unisharing/hoola/hoolaclient/HoolaClientApplicationTests.java" afterPath="$PROJECT_DIR$/hoola-client/src/test/java/com/unisharing/hoola/hoolaclient/HoolaClientApplicationTests.java" />
-      <change beforePath="$PROJECT_DIR$/hoola-datacenter/pom.xml" afterPath="$PROJECT_DIR$/hoola-datacenter/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/content/ContentServiceImpl.java" afterPath="$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/content/ContentServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/index/IndexBuilderImpl.java" afterPath="$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/index/IndexBuilderImpl.java" />
-      <change beforePath="$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/redis/sub/MessageConsumerImpl.java" afterPath="$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/redis/sub/MessageConsumerImpl.java" />
-      <change beforePath="$PROJECT_DIR$/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/search/SearcherImpl.java" afterPath="$PROJECT_DIR$/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/search/SearcherImpl.java" />
-      <change beforePath="$PROJECT_DIR$/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/system/SystemSynServiceImpl.java" afterPath="$PROJECT_DIR$/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/syn/system/SystemSynServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/hoola-redis/src/main/resources/redis/redis.properties" afterPath="$PROJECT_DIR$/hoola-redis/src/main/resources/redis/redis.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,21 +30,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoola-redis/src/main/resources/application.properties">
+      <file leaf-file-name="HoolaClientApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hoola-client/src/test/java/com/unisharing/hoola/hoolaclient/HoolaClientApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="638">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISearcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/search/ISearcher.java">
+      <file leaf-file-name="MybatisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/config/MybatisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="550">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/config/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/interceptor/AuthInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,82 +78,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearcherImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/service/search/SearcherImpl.java">
+      <file leaf-file-name="PerformanceMonitorInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/interceptor/PerformanceMonitorInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2381">
-              <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HoolaClientApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoola-client/src/test/java/com/unisharing/hoola/hoolaclient/HoolaClientApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hoola-datacenter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexBuilderImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/index/IndexBuilderImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1166">
-              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HoolaDatacenterApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/HoolaDatacenterApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HoolaDatacenterApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoola-datacenter/src/test/java/com/unisharing/hoola/hooladatacenter/HoolaDatacenterApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IIndexBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/index/IIndexBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoola-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="70" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,9 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hoola-client/src/main/resources/mybatis/mapper/ClientUserMapper.xml" />
-        <option value="$PROJECT_DIR$/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/model/UserModel.java" />
-        <option value="$PROJECT_DIR$/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/submit/UserSubmit.java" />
         <option value="$PROJECT_DIR$/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/utils/PushSender.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hoola-redis/src/main/java/com/unisharing/hoola/hoolaredis/HoolaRedisApplication.java" />
@@ -241,6 +191,9 @@
         <option value="$PROJECT_DIR$/hoola-client/src/test/java/com/unisharing/hoola/hoolaclient/HoolaClientApplicationTests.java" />
         <option value="$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/index/IndexBuilderImpl.java" />
         <option value="$PROJECT_DIR$/hoola-datacenter/pom.xml" />
+        <option value="$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/interceptor/PerformanceMonitorInterceptor.java" />
+        <option value="$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/interceptor/AuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/config/AppConfig.java" />
       </list>
     </option>
   </component>
@@ -300,25 +253,20 @@
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -326,52 +274,54 @@
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hooladatacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hooladatacenter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaclient" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hooladatacenter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaclient" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaclient" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -379,93 +329,11 @@
             <path>
               <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-datacenter" type="462c0819:PsiDirectoryNode" />
+              <item name="hoola-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hooladatacenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hoolaredis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoolaparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoolaparent" type="462c0819:PsiDirectoryNode" />
-              <item name="hoola-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="hoolaclient" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -503,9 +371,9 @@
       <recent name="com.unisharing.hoola.hoolacommon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\hoolaparent\hoolaparent\hoola-client\src\main\java\com\unisharing\hoola\hoolaclient\web" />
       <recent name="E:\hoolaparent\hoolaparent\hoola-client\src\main\java\com\unisharing\hoola\hoolaclient\service" />
       <recent name="E:\hoolaparent\hoolaparent\hoola-common\src\main\java\com\unisharing\hoola\hoolacommon\index" />
-      <recent name="E:\hoolaparent\hoolaparent\hoola-client\src\main\java\com\unisharing\hoola\hoolaclient\web" />
       <recent name="C:\hoolafinal\hoolaparent\hoola-datacenter\src\main\java\com\unisharing\hoola\hooladatacenter" />
       <recent name="C:\Tests\hoolaparent\hoola-client\src\main\resources\mybatis\mapper" />
     </key>
@@ -1044,7 +912,7 @@
       <workItem from="1513779880657" duration="162000" />
       <workItem from="1513805411333" duration="185000" />
       <workItem from="1513805645793" duration="7258000" />
-      <workItem from="1513840360926" duration="4811000" />
+      <workItem from="1513840360926" duration="7941000" />
     </task>
     <servers />
   </component>
@@ -1081,7 +949,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138633000" />
+    <option name="totallyTimeSpent" value="141763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1107,10 +975,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69036144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15961945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0021141649" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29322916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1147,15 +1015,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/mapper/ClassPathMapperScanner.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/annotation/MapperScan.class" />
-    <entry file="file://$PROJECT_DIR$/hoola-common/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hoola-common/src/main/java/com/unisharing/hoola/hoolacommon/bean/ContentBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1188,18 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/config/MybatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#760#761#0" expanded="false" />
-            <element signature="e#827#828#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1451,7 +1298,7 @@
         <state relative-caret-position="440">
           <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1501,7 +1348,7 @@
         <state relative-caret-position="220">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1510,14 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2381">
           <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoola-client/src/test/java/com/unisharing/hoola/hoolaclient/HoolaClientApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1533,30 +1372,30 @@
     <entry file="file://$PROJECT_DIR$/hoola-datacenter/src/test/java/com/unisharing/hoola/hooladatacenter/HoolaDatacenterApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/index/IIndexBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="330">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoola-datacenter/src/main/java/com/unisharing/hoola/hooladatacenter/service/index/IndexBuilderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1166">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state relative-caret-position="-1067">
+          <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoola-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="297">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="70" selection-end-column="21" />
           <folding />
         </state>
@@ -1564,9 +1403,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hoola-datacenter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        <state relative-caret-position="418">
+          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoola-client/src/test/java/com/unisharing/hoola/hoolaclient/HoolaClientApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/interceptor/AuthInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/web/interceptor/PerformanceMonitorInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoola-client/src/main/java/com/unisharing/hoola/hoolaclient/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
