@@ -83,12 +83,12 @@ public class LoginController extends BaseController {
 	}
 	
 	/**
-	 * 短趣登录
+	 * Hoola登录
 	 * @param email
 	 * @param loginPassword
 	 * @return
 	 */
-	@RequestMapping(value = "/user/duanqu/login", method = RequestMethod.POST, produces = "application/json")
+	@RequestMapping(value = "/user/hoola/login", method = RequestMethod.POST, produces = "application/json")
 	public @ResponseBody
 	Result openLogin(
 			@RequestParam(value = "email", required = true, defaultValue = "") String email,
@@ -143,8 +143,8 @@ public class LoginController extends BaseController {
 			model.setAvatarUrl(user.getAvatarUrl());
 			String newToken = HoolaSecurity.encodeToken(submit.getEmail());
 			model.setToken(newToken);
-			//更新短趣Token
-			redisUserService.updateDuanquToken(user.getUid(),newToken);
+			//更新hoola Token
+			redisUserService.updateHoolaToken(user.getUid(),newToken);
 			//更新Token 
 			BindModel newBindModel = new BindModel();
 			newBindModel.setAccessToken(submit.getAccessToken());
@@ -183,10 +183,10 @@ public class LoginController extends BaseController {
 			return result;
 		}
 		
-		//更新用户昵称成不为“趣拍”，趣拍官方
+		//更新用户昵称成不为“hoola”，hoola官方
 		String oldNickName = submit.getNickName();
-		if (oldNickName != null && oldNickName.contains("趣拍")){
-			submit.setNickName(oldNickName.replaceAll("趣拍", ""));
+		if (oldNickName != null && oldNickName.contains("Hoola")){
+			submit.setNickName(oldNickName.replaceAll("Hoola", ""));
 			if (submit.getNickName().trim().length() < 2){
 				submit.setNickName(submit.getNickName()+HoolaUtils.getRamdCode());
 			}
@@ -388,7 +388,7 @@ public class LoginController extends BaseController {
 		return result;
 	}
 	/**
-	 * 短趣注册
+	 * Hoola注册
 	 * @return
 	 */
 	@RequestMapping(value = "/user/duanqu/register", method = RequestMethod.POST, produces = "application/json")

@@ -177,10 +177,10 @@ public class ClientUserServiceImpl implements IClientUserService {
 		}
 		
 		//更新好友数和关注数，粉丝数由异步线程操作
-		/*if(uid>fid){//用户关注短趣君
+		/*if(uid>fid){//用户关注Hoola君
 			clientUserMapper.updateUserHysAndGzs(map);//更新自己的好友数和关注数
 			clientUserMapper.updateUserHysAndZfss(mapZfss);//更新对方的好友数和真粉丝数
-		}else{//短趣君关注我
+		}else{//Hoola君关注我
 			clientUserMapper.updateUserHysAndZfss(mapZfss);//更新对方的好友数和真粉丝数
 			clientUserMapper.updateUserHysAndGzs(map);//更新自己的好友数和关注数
 		}*/

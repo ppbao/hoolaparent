@@ -62,13 +62,13 @@ public class ContentSynServiceImpl extends BaseRedisService implements IContentS
 				ActionModel action = new ActionModel(model.getUid(), ActionModel.Action.CREATE.getMark(),model.getCid());
 				//公开内容推送给到粉丝动态列表
 				if (model.getIsPrivate() == 0){
-					//短趣君（趣拍）插入置顶数据
+					//Hoola君（趣拍）插入置顶数据
 					if (model.getUid() == 1 && model.getTop() == 1){//趣拍的置顶内容
 						redisTimelineService.insertTimelineTopAction(action);
 					}
 					//公开内容插入最新列表
 					redisContentService.insertContentList(model.getCid());
-					//非名人进行推送和不是短趣君进行推送
+					//非名人进行推送和不是Hoola君进行推送
 					if (!redisUserService.isFamous(model.getUid()) && model.getUid() != 1){
 						//List<SimpleUserForm> fans = redisRelationshipService.loadFans(model.getUid(),0,0);
 						Set fansUid = redisRelationshipService.loadFansUid(model.getUid(),0,0);

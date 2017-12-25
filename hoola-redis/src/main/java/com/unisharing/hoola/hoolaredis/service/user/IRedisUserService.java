@@ -22,7 +22,7 @@ public interface IRedisUserService {
 	 * @param uid
 	 * @param token
 	 */
-	public void updateDuanquToken(long uid, String token);
+	public void updateHoolaToken(long uid, String token);
 
 
 
@@ -86,7 +86,7 @@ public interface IRedisUserService {
 
 	/**
 	 * 取得绑定信息
-	 * @param uid //短趣用户ID
+	 * @param uid //Hoola用户ID
 	 * @param openType //开放平台类型
 	 * @return
 	 */

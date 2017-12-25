@@ -110,7 +110,7 @@ public class ContentServiceImpl extends BaseRedisService implements IContentServ
 					//TODO 非名人进行推送
 					//pushAction(bean.getUid(),action);
 					pushAction(bean.getUid(),action);//pipeline 推送
-					//发送At消息给短趣用户
+					//发送At消息给Hoola用户
 					this.atDuanqu(bean.getAtUserDuanqu(),bean.getDescription(), bean.getUid(), bean.getCid());
 					
 					//缓存At用户列表
@@ -764,7 +764,7 @@ public class ContentServiceImpl extends BaseRedisService implements IContentServ
 		json = (String)jmsTemplate.boundListOps(JMSKeyManager.getAtListKey()).rightPop();
 		while(json != null){
 			bean = JSON.parseObject(json, AtMessageBean.class);
-			//分享短趣
+			//分享Hoola
 			this.atDuanqu(bean.getAtDuanquUsers(),null,bean.getUid(), bean.getCid());
 			
 			//分享新浪
@@ -812,7 +812,7 @@ public class ContentServiceImpl extends BaseRedisService implements IContentServ
 	}
 	
 	/**
-	 * 发送短趣At消息
+	 * 发送HoolaAt消息
 	 * @param description //从描述中解析
 	 * @param uid //发送用户ID
 	 * @param cid	//发送的内容

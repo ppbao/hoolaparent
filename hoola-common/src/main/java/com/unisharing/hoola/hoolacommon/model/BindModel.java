@@ -28,7 +28,7 @@ public class BindModel implements Serializable {
 		MOBILE(3),//手机
 		SINA(1), //新浪
 		TENCENT(2),//腾讯
-		DUANQU(0),//短趣
+		DUANQU(0),//Hoola
 		TENCENTWEIBO(6);//腾讯微博
 		int mark;
 		private OpenType(int mark) {

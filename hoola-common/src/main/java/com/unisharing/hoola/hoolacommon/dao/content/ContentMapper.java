@@ -70,13 +70,13 @@ public interface ContentMapper {
 	
 	/**
 	 * @param mContentSubmit
-	 * @return查询短趣君列表
+	 * @return查询Hoola君列表
 	 */
 	List<ManagerContentForm> queryContentFormsDqj(MContentSubmit mContentSubmit);
 	
 	/**
 	 * @param mContentSubmit
-	 * @return统计短趣君总数
+	 * @return统计Hoola君总数
 	 */
 	long queryContentFormsDqjCount(MContentSubmit mContentSubmit);
 	

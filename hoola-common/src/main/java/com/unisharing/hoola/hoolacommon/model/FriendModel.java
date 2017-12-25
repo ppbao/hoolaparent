@@ -17,7 +17,7 @@ public class FriendModel implements Serializable {
 		SINA(1), //新浪
 		TENCENT(2),//腾讯
 		MOBILE(3),//手机通讯录
-		DUANQU(0);//短趣
+		DUANQU(0);//Hoola
 		int mark;
 		private FriendType(int mark) {
 			this.mark = mark;

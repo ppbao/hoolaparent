@@ -16,17 +16,17 @@ public class FriendShipKeyManager {
 	
 	public static final String USER_FRIEND_KEY = "ss:user:{0}:friends";//相互关注用户（好友）
 	
-	public static final String USER_SINA_FRIEND_NEW = "ss:user:{0}:sina:friend:new";//用户最新新浪已经加入短趣好友
+	public static final String USER_SINA_FRIEND_NEW = "ss:user:{0}:sina:friend:new";//用户最新新浪已经加入Hoola好友
 	
-	public static final String USER_SINA_FRIENDS = "ss:user:{0}:sina:friend";//用户新浪已经加入短趣好友
+	public static final String USER_SINA_FRIENDS = "ss:user:{0}:sina:friend";//用户新浪已经加入Hoola好友
 	
-	public static final String USER_TENCENT_FRIEND_NEW = "ss:user:{0}:tencent:friend:new";//用户最新腾讯微波已经加入短趣好友
+	public static final String USER_TENCENT_FRIEND_NEW = "ss:user:{0}:tencent:friend:new";//用户最新腾讯微波已经加入Hoola好友
 	
-	public static final String USER_TENCENT_FRIENDS = "ss:user:{0}:tencent:friend";//用户腾讯微波已经加入短趣好友
+	public static final String USER_TENCENT_FRIENDS = "ss:user:{0}:tencent:friend";//用户腾讯微波已经加入Hoola好友
 	
-	public static final String USER_MOBILE_FRIEND_NEW = "ss:user:{0}:mobile:friend:new";//用户最新通讯录已经加入短趣好友
+	public static final String USER_MOBILE_FRIEND_NEW = "ss:user:{0}:mobile:friend:new";//用户最新通讯录已经加入Hoola好友
 	
-	public static final String USER_MOBILE_FRIENDS = "ss:user:{0}:mobile:friend";//用户通讯录已经加入短趣好友
+	public static final String USER_MOBILE_FRIENDS = "ss:user:{0}:mobile:friend";//用户通讯录已经加入Hoola好友
 	
 	public static final String USER_NEW_FRENDS = "user:{0}:friends:new";//用户所有新匹配的好友列表Key
 	
@@ -48,7 +48,7 @@ public class FriendShipKeyManager {
 	
 	public static final String USER_BLACKLIST = "user:{0}:blacklist";//存储用户黑名单
 	
-	public static final String USER_ALL_FRIEND_NEW="ss:user:{0}:all:friend:new";//用于存储最新新浪腾讯手机加入的短趣好友
+	public static final String USER_ALL_FRIEND_NEW="ss:user:{0}:all:friend:new";//用于存储最新新浪腾讯手机加入的Hoola好友
 	
 	
 	
@@ -67,7 +67,7 @@ public class FriendShipKeyManager {
 		return MessageFormat.format(USER_FOLLOWS_KEY, uid);
 	}
 	
-	/**根据ID取出用户最新的第三方平台加入短趣的好友
+	/**根据ID取出用户最新的第三方平台加入Hoola的好友
 	 * @param uid
 	 * @return
 	 */
@@ -112,7 +112,7 @@ public class FriendShipKeyManager {
 	}
 	
 	/**
-	 * 取得用户新浪最新加入短趣好友Key
+	 * 取得用户新浪最新加入Hoola好友Key
 	 * @param uid
 	 * @return
 	 */
@@ -121,7 +121,7 @@ public class FriendShipKeyManager {
 	}
 	
 	/**
-	 * 取得用户新浪已经加入短趣好友key
+	 * 取得用户新浪已经加入Hoola好友key
 	 * @param uid
 	 * @return
 	 */
@@ -131,7 +131,7 @@ public class FriendShipKeyManager {
 	
 	
 	/**
-	 * 取得用户腾讯微博最新加入短趣好友Key
+	 * 取得用户腾讯微博最新加入Hoola好友Key
 	 * @param uid
 	 * @return
 	 */
@@ -140,7 +140,7 @@ public class FriendShipKeyManager {
 	}
 	
 	/**
-	 * 取得用户新浪已经加入短趣好友key
+	 * 取得用户新浪已经加入Hoola好友key
 	 * @param uid
 	 * @return
 	 */
@@ -149,7 +149,7 @@ public class FriendShipKeyManager {
 	}
 	
 	/**
-	 * 取得用户腾讯微博最新加入短趣好友Key
+	 * 取得用户腾讯微博最新加入Hoola好友Key
 	 * @param uid
 	 * @return
 	 */
@@ -158,7 +158,7 @@ public class FriendShipKeyManager {
 	}
 	
 	/**
-	 * 取得用户新浪已经加入短趣好友key
+	 * 取得用户新浪已经加入Hoola好友key
 	 * @param uid
 	 * @return
 	 */

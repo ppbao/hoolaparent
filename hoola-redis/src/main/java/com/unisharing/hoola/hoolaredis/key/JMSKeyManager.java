@@ -62,7 +62,7 @@ public class JMSKeyManager {
 	
 	public static String CANCEL_LIKE_FORWARD_MQ_KEY = "l:jms:like:forward:cancel";//用户取消喜欢并关注消息队列
 	
-	public static String AUTO_FOLLOW_QUPAIAPP = "auto:follow:qupaiapp";//用户是否自动关注短趣APP
+	public static String AUTO_FOLLOW_QUPAIAPP = "auto:follow:qupaiapp";//用户是否自动关注HoolaAPP
 	
 	public static String AUTO_UPLOAD_STATUS = "auto:upload:status";//注册时自动发布一条微博
 	

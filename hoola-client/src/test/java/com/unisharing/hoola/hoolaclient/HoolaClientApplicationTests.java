@@ -2,6 +2,7 @@ package com.unisharing.hoola.hoolaclient;
 
 import com.unisharing.hoola.hoolaclient.dao.ClientUserMapper;
 import com.unisharing.hoola.hoolacommon.model.UserModel;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +23,7 @@ public class HoolaClientApplicationTests {
 
 	@Test
 	public void contextLoads() {
-
+        Assert.assertNotNull(userMapper);
 	}
    @Test
     public void testAdd()

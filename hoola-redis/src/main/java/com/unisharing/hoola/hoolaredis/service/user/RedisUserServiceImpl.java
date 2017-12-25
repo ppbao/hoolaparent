@@ -137,7 +137,7 @@ public class RedisUserServiceImpl extends BaseRedisService implements IRedisUser
 	public void bindUserInfo(BindModel model) {
 		//插入第三方平台和自身用户ID的对应关系
 		userTemplate.boundValueOps(UserKeyManager.getUserIdBy3thKey(model.getOpenType()+"", model.getOpenUid())).set(String.valueOf(model.getUid()));
-		//插入绑定信息 主意 这个key的Uid 为短趣平台ID
+		//插入绑定信息 主意 这个key的Uid 为Hoola平台ID
 		userTemplate.boundHashOps(UserKeyManager.getUserBindInfoKey(model.getUid(),model.getOpenType())).putAll(bindMapper.toHash(model));
 	}
 	
@@ -317,7 +317,7 @@ public class RedisUserServiceImpl extends BaseRedisService implements IRedisUser
 	}
 	@SuppressWarnings("unchecked")
 	@Override
-	public void updateDuanquToken(long uid, String token) {
+	public void updateHoolaToken(long uid, String token) {
 		UserModel user = this.getUser(uid);
 		if (user != null && user.getUid() > 0){
 			userTemplate.boundHashOps(UserKeyManager.getUserInfoKey(uid)).put("token",token);

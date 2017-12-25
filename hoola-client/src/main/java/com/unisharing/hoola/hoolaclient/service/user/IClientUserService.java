@@ -11,9 +11,9 @@ import java.util.Map;
 //handle
 public interface IClientUserService {
 	
-	void insertRegister(UserModel userModel);//短趣注册
+	void insertRegister(UserModel userModel);//Hoola注册
 	void insertRegisterTh(UserModel userModel, BindModel bindModel);//第三方平台授权登录
-	void updateLogin(UserModel userModel);//短趣登录
+	void updateLogin(UserModel userModel);//Hoola登录
 	void updateUserInfoMobile(long uid, String mobile);//更新用户手机号
 
 	/**

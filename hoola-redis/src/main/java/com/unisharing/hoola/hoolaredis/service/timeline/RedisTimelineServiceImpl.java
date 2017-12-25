@@ -239,8 +239,8 @@ public class RedisTimelineServiceImpl extends BaseRedisService implements IRedis
 			DefaultStringRedisConnection connection = super.getDefaultStringRedisConnection();
 			//拉取名人好友数据
 			pullFamousContent(connection,uid,"all");
-			//拉取短趣君的数据
-			if (redisRelationshipService.isFollowed(uid, 1)){//判断是否关注短趣君； 短趣君 id = 1
+			//拉取Hoola君的数据
+			if (redisRelationshipService.isFollowed(uid, 1)){//判断是否关注Hoola君； Hoola君 id = 1
 				Set temp = connection.zRangeByScoreWithScores(TimelineKeyManager.getUserPublicList(1), user.getCreateTime(), Long.MAX_VALUE);
 				if (temp != null){
 					Iterator it = temp.iterator();
@@ -254,7 +254,7 @@ public class RedisTimelineServiceImpl extends BaseRedisService implements IRedis
 				int[] weights = {1,1};
 				connection.zUnionStore(TimelineKeyManager
 						.getUserTimeLineKey(uid), Aggregate.MAX, weights,
-						TimelineKeyManager.getUserQupaiList(uid),//  短趣君在用户注册以后发部的内容 id = 1
+						TimelineKeyManager.getUserQupaiList(uid),//  Hoola君在用户注册以后发部的内容 id = 1
 						TimelineKeyManager.getUserTimeLineKey(uid));
 			}
 			
@@ -313,8 +313,8 @@ public class RedisTimelineServiceImpl extends BaseRedisService implements IRedis
 			DefaultStringRedisConnection connection = super.getDefaultStringRedisConnection();
 			//拉去名人关注数据
 			pullFamousContent(connection,uid,"create");
-			//拉取短趣君的数据
-			if (redisRelationshipService.isFollowed(uid, 1)){//判断是否关注短趣君； 短趣君 id = 1
+			//拉取Hoola君的数据
+			if (redisRelationshipService.isFollowed(uid, 1)){//判断是否关注Hoola君； Hoola君 id = 1
 				Set temp = connection.zRangeByScoreWithScores(TimelineKeyManager.getUserPublicList(1), user.getCreateTime(), Long.MAX_VALUE);
 				if (temp != null){
 					Iterator it = temp.iterator();
@@ -328,7 +328,7 @@ public class RedisTimelineServiceImpl extends BaseRedisService implements IRedis
 				int[] weights = {1,1};
 				connection.zUnionStore(TimelineKeyManager
 						.getUserTimeLineKey(uid), Aggregate.MAX, weights,
-						TimelineKeyManager.getUserQupaiList(uid),//  短趣君在用户注册以后发部的内容 id = 1
+						TimelineKeyManager.getUserQupaiList(uid),//  Hoola君在用户注册以后发部的内容 id = 1
 						TimelineKeyManager.getUserTimeLineKey(uid));
 			}
 			
@@ -729,7 +729,7 @@ public class RedisTimelineServiceImpl extends BaseRedisService implements IRedis
 		//1、合并置顶内容和公开内容列表
 		DefaultStringRedisConnection connection = super.getDefaultStringRedisConnection();
 		int[] weights = {1,1};
-		//短趣君 id = 1
+		//Hoola君 id = 1
 		connection.zUnionStore(TimelineKeyManager.getUserPublicList(1),
 				Aggregate.MAX, weights, HotContentKeyManager
 						.getQupaiTopContentKey(), TimelineKeyManager

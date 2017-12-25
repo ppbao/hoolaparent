@@ -44,7 +44,7 @@ public class HoolaSendSmsUtil {
 	}
 
 	public static void main(String strg[]) {
-		sendSms("13666698085", "尊敬的会员,您的注册验证码是138438,感谢您使用短趣客户端！", "1");
+		sendSms("13666698085", "尊敬的会员,您的注册验证码是138438,感谢您使用Hoola客户端！", "1");
 	}
 
 }

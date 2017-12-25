@@ -174,7 +174,7 @@ public class PushSender {
 			
 			for (int i = 1;i<=50;i++){
 				PushNotificationPayload payload = new PushNotificationPayload();
-				payload.addAlert("短趣推送:测试推送"+i);
+				payload.addAlert("Hoola推送:测试推送"+i);
 				//payload.addCustomAlertBody("提示提示:how are you !");
 				
 				payload.addSound("default");// 声音
@@ -198,7 +198,7 @@ public class PushSender {
 		/*List<PushedNotification> notifications3;
 		try {
 			notifications3 = Push
-					.alert("短趣消息推送调试，收到给我回个短信谢谢。--海华", keystore, "123456",
+					.alert("Hoola消息推送调试，收到给我回个短信谢谢。--海华", keystore, "123456",
 							false,
 							"8ff6fba5136040c780e4050b25d093ebdfc527ae9418cd923aeed823fe0339cf");
 			printPushedNotifications(notifications3);

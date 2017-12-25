@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class MatchedUserModel implements Serializable {
 	
 	private static final long serialVersionUID = 6053579922570955676L;
-	long uid;//在短趣的用户ID
+	long uid;//在Hoola的用户ID
 	String userName;//第三方平台用户名
 	//long matchedTime;//匹配时间
 	public long getUid() {

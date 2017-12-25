@@ -96,7 +96,7 @@ public class UserServiceImpl extends BaseRedisService implements IUserService {
 					logger.error("用户信息插入数据库出错：Params="+user+";Error Message="+e);
 				}
 				
-				//自动关注趣拍官方帐号,趣拍（短趣君）的数据采用拉的方式
+				//自动关注趣拍官方帐号,趣拍（Hoola君）的数据采用拉的方式
 				redisRelationshipService.follow(user.getUid(), 1);
 				//官方帐号自动关注新用户
 				redisRelationshipService.follow(1, user.getUid());
@@ -386,7 +386,7 @@ public class UserServiceImpl extends BaseRedisService implements IUserService {
 			 submitJson = (String)jmsTemplate.boundListOps(JMSKeyManager.getNewFollowListKey()).rightPop();
 			 bean = JSON.parseObject(submitJson, FollowBean.class);
 			 if (bean != null){
-				 //非名人和不是趣拍（短趣君才进行推送）
+				 //非名人和不是趣拍（Hoola君才进行推送）
 				 if (!redisUserService.isFamous(bean.getFid()) && bean.getFid() != 1){
 					 //推送发布的内容
 					 Set createSet = relationTemplate.boundZSetOps(TimelineKeyManager.getUserPublicList(bean.getFid())).rangeWithScores(0, -1);
@@ -447,7 +447,7 @@ public class UserServiceImpl extends BaseRedisService implements IUserService {
 			 submitJson = (String)jmsTemplate.boundListOps(JMSKeyManager.getUnFollowListKey()).rightPop();
 			 bean = JSON.parseObject(submitJson, FollowBean.class);
 			 if (bean != null){
-				 //非名人和不是趣拍（短趣君才进行推送）
+				 //非名人和不是趣拍（Hoola君才进行推送）
 				 if (!redisUserService.isFamous(bean.getFid()) && bean.getFid() != 1){
 					 //发布的
 					 Set createSet = relationTemplate.boundZSetOps(TimelineKeyManager.getUserPublicList(bean.getFid())).rangeWithScores(0, -1);
